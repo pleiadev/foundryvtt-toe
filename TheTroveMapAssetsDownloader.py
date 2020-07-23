@@ -167,8 +167,8 @@ def DownloadBatchAssets(args):
         for i in arrSub:
             try:
                 os.chdir(i)
-                os.system(r"..\..\TheTroveMapAssetsDownloader.py --subdirectory %s %s" % (arrSub[i], debugStr))
-                os.chdir("../")
+                os.system(r"%s %s --subdirectory %s %s" % (sys.executable, os.path.join("..", args.argv0), arrSub[i], debugStr))
+                os.chdir("..")
             except FileNotFoundError:
                 print("Directory %s not found. Aborting. Create the download directories." % i)
                 return
@@ -194,6 +194,8 @@ def main(argv):
     parser.add_argument('-B', '--batchjob', action='store_true', help='will download predefined directories')
 
     args = parser.parse_args(argv[1:])
+    # store script name
+    args.argv0 = argv[0]
 
     if args.batchjob:
         DownloadBatchAssets(args)
