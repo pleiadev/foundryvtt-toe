@@ -1,2 +1,6 @@
+{"key":"core.moduleConfiguration","value":"{\"dndbeyond-character-sheet\":true,\"vtta-dndbeyond\":true}","_id":"3hGA6cPjPWCVFE0X"}
+{"key":"vtta-dndbeyond.entity-item-compendium","value":"\"world.ddb-items\"","_id":"4IdZZf4DLwef6gdz"}
 {"key":"core.permissions","value":"{\"BROADCAST_AUDIO\":[2,3,4],\"BROADCAST_VIDEO\":[2,3,4],\"ACTOR_CREATE\":[3,4],\"DRAWING_CREATE\":[2,3,4],\"ITEM_CREATE\":[3,4],\"FILES_BROWSE\":[2,3,4],\"FILES_UPLOAD\":[3,4],\"JOURNAL_CREATE\":[2,3,4],\"MACRO_SCRIPT\":[1,2,3,4],\"MESSAGE_WHISPER\":[1,2,3,4],\"SETTINGS_MODIFY\":[3,4],\"SHOW_CURSOR\":[1,2,3,4],\"SHOW_RULER\":[1,2,3,4],\"TEMPLATE_CREATE\":[1,2,3,4],\"TOKEN_CREATE\":[3,4],\"TOKEN_CONFIGURE\":[2,3,4],\"WALL_DOORS\":[1,2,3,4]}","_id":"4pz5IxLFj30Ijhgj"}
+{"key":"vtta-dndbeyond.entity-spell-compendium","value":"\"world.ddb-spells\"","_id":"5mFdUt0cTQ563ZOt"}
 {"key":"dnd5e.systemMigrationVersion","value":"0.93","_id":"Qn81wjGRnk1WXS1d"}
+{"key":"vtta-dndbeyond.entity-monster-compendium","value":"\"world.ddb-monsters\"","_id":"VtrNDc6SdTxxj1sT"}
