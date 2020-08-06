@@ -1,4 +1,2 @@
-{"_id":"nUY9oqWIB0pxuj8P","name":"Hommlet","type":"Scene","sort":200000,"flags":{},"parent":null,"color":""}
-{"_id":"xmMEXdekSlpQl0Xu","name":"Dungeons","type":"Scene","sort":300000,"flags":{},"parent":null,"color":""}
-{"_id":"KioL2Vhc7u5f0FvL","name":"The Party","type":"Actor","sort":100000,"flags":{},"parent":null,"color":""}
-
+{"name":"Hommlet","type":"Scene","sort":null,"flags":{},"parent":null,"color":"","_id":"25I7IILSUomEJR0V"}
+{"name":"Dungeons","type":"Scene","sort":null,"flags":{},"parent":null,"color":"","_id":"zdMj7Wp7CVXFUMKa"}
