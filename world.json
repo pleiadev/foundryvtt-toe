@@ -8,7 +8,35 @@
   "scripts": [],
   "esmodules": [],
   "styles": [],
-  "packs": [],
+  "packs": [
+    {
+      "entity": "Item",
+      "label": "My DDB Spells",
+      "name": "ddb-spells",
+      "package": "world",
+      "path": "packs/ddb-spells.db",
+      "system": "dnd5e",
+      "absPath": "C:\\Users\\micha\\Documents\\FoundryVTT\\Data\\worlds\\foundryvtt-toe\\packs\\ddb-spells.db"
+    },
+    {
+      "entity": "Item",
+      "label": "My DDB Items",
+      "name": "ddb-items",
+      "package": "world",
+      "path": "packs/ddb-items.db",
+      "system": "dnd5e",
+      "absPath": "C:\\Users\\micha\\Documents\\FoundryVTT\\Data\\worlds\\foundryvtt-toe\\packs\\ddb-items.db"
+    },
+    {
+      "entity": "Actor",
+      "label": "My DDB Monsters",
+      "name": "ddb-monsters",
+      "package": "world",
+      "path": "packs/ddb-monsters.db",
+      "system": "dnd5e",
+      "absPath": "C:\\Users\\micha\\Documents\\FoundryVTT\\Data\\worlds\\foundryvtt-toe\\packs\\ddb-monsters.db"
+    }
+  ],
   "languages": [],
   "authors": [],
   "keywords": [],
@@ -22,10 +50,10 @@
   "changelog": "",
   "background": "artwork/mh_kpark_AFS8_36_TempleOfElementalEvil_SFF.jpg",
   "system": "dnd5e",
-  "coreVersion": "0.6.4",
-  "systemVersion": 0.93,
+  "coreVersion": "0.6.5",
+  "systemVersion": 0.94,
   "nextSession": "",
-  "availability": 1,
+  "availability": 0,
   "unavailable": false,
   "id": "foundryvtt-toe"
 }
