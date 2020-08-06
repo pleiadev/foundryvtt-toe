@@ -8,35 +8,7 @@
   "scripts": [],
   "esmodules": [],
   "styles": [],
-  "packs": [
-    {
-      "entity": "Item",
-      "label": "My DDB Spells",
-      "name": "ddb-spells",
-      "package": "world",
-      "path": "packs/ddb-spells.db",
-      "system": "dnd5e",
-      "absPath": "C:\\Users\\micha\\Documents\\FoundryVTT\\Data\\worlds\\foundryvtt-toe\\packs\\ddb-spells.db"
-    },
-    {
-      "entity": "Item",
-      "label": "My DDB Items",
-      "name": "ddb-items",
-      "package": "world",
-      "path": "packs/ddb-items.db",
-      "system": "dnd5e",
-      "absPath": "C:\\Users\\micha\\Documents\\FoundryVTT\\Data\\worlds\\foundryvtt-toe\\packs\\ddb-items.db"
-    },
-    {
-      "entity": "Actor",
-      "label": "My DDB Monsters",
-      "name": "ddb-monsters",
-      "package": "world",
-      "path": "packs/ddb-monsters.db",
-      "system": "dnd5e",
-      "absPath": "C:\\Users\\micha\\Documents\\FoundryVTT\\Data\\worlds\\foundryvtt-toe\\packs\\ddb-monsters.db"
-    }
-  ],
+  "packs": [],
   "languages": [],
   "authors": [],
   "keywords": [],
