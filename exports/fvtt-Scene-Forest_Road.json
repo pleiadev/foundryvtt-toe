@@ -14,10 +14,10 @@
   "navigation": true,
   "navOrder": 100001,
   "navName": "",
-  "active": false,
+  "active": true,
   "initial": null,
   "img": "worlds/foundryvtt-toe/maps/Forest%20Roads.png",
-  "thumb": "worlds/foundryvtt-toe/scenes/thumbs/ZkQl5GjJ3kodjCOa.png?1597501476583",
+  "thumb": "worlds/foundryvtt-toe/scenes/thumbs/ZkQl5GjJ3kodjCOa.png",
   "width": 3150,
   "height": 2800,
   "backgroundColor": "#999999",
@@ -33,32 +33,19 @@
   "tokens": [],
   "walls": [
     {
-      "_id": "sVfudrLiMAj6ydNa",
-      "flags": {},
-      "c": [
-        866,
-        1513,
-        1665,
-        1553
-      ],
-      "move": 1,
-      "sense": 2,
-      "door": 0,
-      "ds": 0
-    },
-    {
       "_id": "rMdxyal1zCJimNYs",
       "flags": {},
       "c": [
-        1665,
-        1553,
+        1417,
+        1470,
         1732,
         1382
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "dgULnPZmPITAdY87",
@@ -80,41 +67,44 @@
       "c": [
         2030,
         1391,
-        2205,
-        1610
+        2607,
+        1400
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "emb0awnO6XyC9OHm",
       "flags": {},
       "c": [
-        2205,
-        1610,
-        2126,
-        1575
+        2607,
+        1408,
+        2450,
+        1531
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "gFpuYf7FWc0FJ7Gd",
       "flags": {},
       "c": [
-        2126,
-        1575,
+        2450,
+        1531,
         2012,
         1426
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "mFG78hBxks7hEs3d",
@@ -136,41 +126,44 @@
       "c": [
         1750,
         1417,
-        1680,
-        1575
+        1636,
+        1636
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "zy1D3wdZZK4omusm",
       "flags": {},
       "c": [
-        1680,
-        1575,
-        878,
-        1540
+        1636,
+        1636,
+        1417,
+        1478
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "jBNDMjf9n1aW3Fbw",
       "flags": {},
       "c": [
-        2096,
-        2000,
+        1986,
+        2100,
         1890,
         2170
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "P8r9yj8qoNCEr9p6",
@@ -206,27 +199,29 @@
       "c": [
         1618,
         2520,
-        1785,
-        2633
+        1811,
+        2721
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "afiexnywvKaPwZ3Z",
       "flags": {},
       "c": [
-        1785,
-        2633,
+        1811,
+        2721,
         1820,
         2607
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "By3iVk7PdY27H9TQ",
@@ -276,41 +271,29 @@
       "c": [
         1907,
         2213,
-        2135,
-        2021
+        2038,
+        2117
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "apeSNMmP4JOoHAlI",
       "flags": {},
       "c": [
-        2096,
-        2000,
-        2135,
-        2021
+        1986,
+        2100,
+        2038,
+        2117
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
-    },
-    {
-      "_id": "rHotIAjDfyMWXZBg",
-      "flags": {},
-      "c": [
-        878,
-        1540,
-        866,
-        1513
-      ],
-      "move": 1,
-      "sense": 2,
-      "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "xFCBtDUBO9lhyUdX",
@@ -428,15 +411,16 @@
       "_id": "JmIb93Z1g8UXkPPr",
       "flags": {},
       "c": [
-        2887,
-        3132,
+        2843,
+        3158,
         3001,
         3097
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "Iy6MLTzrhAKwZQFb",
@@ -486,41 +470,44 @@
       "c": [
         3412,
         2756,
-        3596,
-        2791
+        3963,
+        2800
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "EMFU7NbxN2vdTfhq",
       "flags": {},
       "c": [
-        3596,
-        2791,
-        3587,
-        2817
+        3963,
+        2800,
+        3972,
+        2852
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "zrhSaYFgG3WhOKjb",
       "flags": {},
       "c": [
-        3587,
-        2817,
+        3972,
+        2852,
         3421,
         2782
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "xBgFNmFGoe3JH1qc",
@@ -570,41 +557,29 @@
       "c": [
         3018,
         3115,
-        2887,
-        3150
+        2843,
+        3158
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
-    },
-    {
-      "_id": "wGP50u5oNwxoNtD5",
-      "flags": {},
-      "c": [
-        2887,
-        3150,
-        2887,
-        3132
-      ],
-      "move": 1,
-      "sense": 2,
-      "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "jzJiwJSTD5EtwDgP",
       "flags": {},
       "c": [
-        1653,
-        3080,
+        1618,
+        3001,
         1793,
         3053
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "wdoMT5rDVLqwgP98",
@@ -766,27 +741,14 @@
       "c": [
         1820,
         3132,
-        1662,
-        3106
+        1601,
+        3097
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
-    },
-    {
-      "_id": "Z6vpvRjGQbiTZ6pp",
-      "flags": {},
-      "c": [
-        1662,
-        3106,
-        1653,
-        3080
-      ],
-      "move": 1,
-      "sense": 2,
-      "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "meFkvsPuH8EcFx2V",
@@ -822,83 +784,59 @@
       "c": [
         1356,
         3001,
-        1452,
-        2957
+        1461,
+        3053
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "rZzdqKvtbv4grW55",
       "flags": {},
       "c": [
-        1452,
-        2957,
-        1540,
-        3071
+        1461,
+        3053,
+        1601,
+        3097
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
-    },
-    {
-      "_id": "zHDFuNiCLTfkRUnM",
-      "flags": {},
-      "c": [
-        1540,
-        3071,
-        1575,
-        3045
-      ],
-      "move": 1,
-      "sense": 2,
-      "door": 0,
-      "ds": 0
-    },
-    {
-      "_id": "KHwbnYGA6g2L8Viz",
-      "flags": {},
-      "c": [
-        1575,
-        3045,
-        1452,
-        2913
-      ],
-      "move": 1,
-      "sense": 2,
-      "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "j4asLPvjqcGuIPZy",
       "flags": {},
       "c": [
-        1452,
-        2913,
-        1347,
-        2975
+        1618,
+        3001,
+        1443,
+        2931
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "r1r7LSRFDXuu0CfZ",
       "flags": {},
       "c": [
-        1347,
-        2975,
+        1443,
+        2931,
         1356,
         3001
       ],
       "move": 1,
       "sense": 2,
       "door": 0,
-      "ds": 0
+      "ds": 0,
+      "locked": false
     },
     {
       "_id": "fEw51xqi5GjzP3gj",
