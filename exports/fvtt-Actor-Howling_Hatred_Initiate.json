@@ -102,10 +102,10 @@
       "race": null,
       "type": "Humanoid",
       "environment": null,
-      "cr": 0.25,
+      "cr": 0.125,
       "spellLevel": 1,
       "xp": {
-        "value": 50
+        "value": 25
       },
       "source": "MM pg. 342",
       "class": {}
@@ -583,12 +583,12 @@
         },
         "consume": {
           "type": "",
-          "target": null,
+          "target": "",
           "amount": null
         },
-        "ability": null,
+        "ability": "",
         "actionType": "mwak",
-        "attackBonus": 0,
+        "attackBonus": 4,
         "chatFlavor": "",
         "critical": null,
         "damage": {

@@ -487,7 +487,7 @@
           "target": "",
           "amount": null
         },
-        "ability": null,
+        "ability": "",
         "actionType": "other",
         "attackBonus": 0,
         "chatFlavor": "",
@@ -498,7 +498,7 @@
         },
         "formula": "",
         "save": {
-          "ability": null,
+          "ability": "",
           "dc": null,
           "scaling": "flat"
         },
@@ -1387,7 +1387,7 @@
         "damage": {
           "parts": [
             [
-              "2d6 + 3 + @mod",
+              "2d6  + @mod",
               "slashing"
             ]
           ],
@@ -1435,7 +1435,7 @@
         "duration": "",
         "recharge": "Recharge [undefined]",
         "save": "",
-        "damage": "2d6 + 3 + @mod",
+        "damage": "2d6  + @mod",
         "damageTypes": "Slashing"
       },
       "isStack": false,
@@ -1499,7 +1499,7 @@
         "damage": {
           "parts": [
             [
-              "1d12 + 3 + @mod",
+              "1d12 + @mod",
               "piercing"
             ]
           ],
@@ -1550,7 +1550,7 @@
         "duration": "",
         "recharge": "Recharge [undefined]",
         "save": "",
-        "damage": "1d12 + 3 + @mod",
+        "damage": "1d12 + @mod",
         "damageTypes": "Piercing"
       },
       "isStack": false,
