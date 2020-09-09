@@ -1,0 +1,979 @@
+{
+  "name": "Sacred Stone Monk",
+  "type": "npc",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 13,
+        "proficient": 0,
+        "mod": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 1
+      },
+      "dex": {
+        "value": 15,
+        "proficient": 0,
+        "mod": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 2
+      },
+      "con": {
+        "value": 12,
+        "proficient": 0,
+        "mod": 1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 1
+      },
+      "int": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0
+      },
+      "wis": {
+        "value": 14,
+        "proficient": 0,
+        "mod": 2,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 2
+      },
+      "cha": {
+        "value": 9,
+        "proficient": 0,
+        "mod": -1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -1
+      }
+    },
+    "attributes": {
+      "ac": {
+        "value": 14
+      },
+      "hp": {
+        "value": 22,
+        "min": 0,
+        "max": 22,
+        "temp": 0,
+        "tempmax": 0,
+        "formula": ""
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2
+      },
+      "spellcasting": "int",
+      "speed": {
+        "value": "40 ft",
+        "special": ""
+      },
+      "prof": 2,
+      "spelldc": 10
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "Lawful Evil",
+      "race": "",
+      "type": "Humanoid",
+      "environment": "",
+      "cr": 0.5,
+      "spellLevel": 0,
+      "xp": {
+        "value": 100
+      },
+      "source": "ToE"
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "senses": "Tremorsense 10 ft, Passive Perception 14",
+      "languages": {
+        "value": [
+          "common"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 2,
+        "total": 4,
+        "passive": 14
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2,
+        "passive": 12
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ath": {
+        "value": 1,
+        "ability": "str",
+        "bonus": 0,
+        "mod": 1,
+        "prof": 2,
+        "total": 3,
+        "passive": 13
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -1,
+        "prof": 0,
+        "total": -1,
+        "passive": 9
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2,
+        "passive": 12
+      },
+      "itm": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -1,
+        "prof": 0,
+        "total": -1,
+        "passive": 9
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2,
+        "passive": 12
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 2,
+        "total": 4,
+        "passive": 14
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -1,
+        "prof": 0,
+        "total": -1,
+        "passive": 9
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": -1,
+        "prof": 0,
+        "total": -1,
+        "passive": 9
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonus": 0,
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2,
+        "passive": 12
+      },
+      "ste": {
+        "value": 0,
+        "ability": "dex",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2,
+        "passive": 12
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": 2,
+        "prof": 0,
+        "total": 2,
+        "passive": 12
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "max": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "max": 0,
+        "override": null,
+        "level": 0
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "legact": {
+        "value": 0,
+        "max": 0
+      },
+      "legres": {
+        "value": 0,
+        "max": 0
+      },
+      "lair": {
+        "value": false,
+        "initiative": 0
+      }
+    }
+  },
+  "sort": 100001,
+  "flags": {
+    "exportSource": {
+      "world": "foundryvtt-toe",
+      "system": "dnd5e",
+      "coreVersion": "0.6.5",
+      "systemVersion": 0.94
+    }
+  },
+  "token": {
+    "flags": {},
+    "name": "Sacred Stone Monk",
+    "displayName": 0,
+    "img": "icons/svg/mystery-man.svg",
+    "tint": null,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "lockRotation": false,
+    "rotation": 0,
+    "vision": false,
+    "dimSight": 0,
+    "brightSight": 0,
+    "dimLight": 0,
+    "brightLight": 0,
+    "sightAngle": 360,
+    "lightAngle": 360,
+    "lightAlpha": 1,
+    "actorId": "IewTmFWjWlO0LAhz",
+    "actorLink": false,
+    "actorData": {},
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {},
+    "bar2": {},
+    "randomImg": false
+  },
+  "items": [
+    {
+      "_id": "b27dAysCbsZW7AbQ",
+      "flags": {
+        "_sheetTab": ""
+      },
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks <strong>two</strong> using melee.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": "",
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "sort": 12200001,
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "CTuFfH6Kzf3T1u7R",
+      "flags": {
+        "_sheetTab": "description",
+        "entityorder": {
+          "order": 170
+        }
+      },
+      "name": "Unarmored Defense (Monk)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/blue_35.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Beginning at 1st Level, while you are wearing no armor and not wielding a Shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 78",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Monk 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 12300001,
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "vWA7XWWga80jSATc",
+      "flags": {
+        "_sheetTab": "description",
+        "entityorder": {
+          "order": 169
+        }
+      },
+      "name": "Unarmored Movement",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/green_16.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the table below.&nbsp;</p>\n<p>At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</p>\n<table style=\"width: 227px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 79px;\"><strong>Monk Level</strong></td>\n<td style=\"width: 141px;\"><strong>Unarmored Movement</strong></td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">2nd</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">3rd</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">4th</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">5th</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">6th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">7th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">8th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">9th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">10th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">11th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">12th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">13th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">14th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">15th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">16th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">17th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">18th</td>\n<td style=\"width: 141px;\">+30 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">19th</td>\n<td style=\"width: 141px;\">+30 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">20th</td>\n<td style=\"width: 141px;\">+30 ft.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 77-78",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null,
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "Monk 2 ",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 12400001,
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "hblPFtoXIxNhSWvx",
+      "flags": {
+        "_sheetTab": ""
+      },
+      "name": "Parry",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_21.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The &lt;creature&gt; adds 2 to its AC against one melee attack that would hit it. To do so, the &lt;creature&gt; must see the attacker and be wielding a melee weapon.</p> ",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": "",
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": "",
+          "type": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": ""
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": "",
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "properties": {
+          "value": "",
+          "amm": null,
+          "fin": null,
+          "fir": null,
+          "foc": null,
+          "hvy": null,
+          "lgt": null,
+          "lod": null,
+          "rch": null,
+          "rel": null,
+          "ret": null,
+          "spc": null,
+          "thr": null,
+          "two": null,
+          "ver": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
+        }
+      },
+      "sort": 13000001,
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "MihNTyXUb1DJ0QeF",
+      "flags": {
+        "exportSource": {
+          "world": "062test",
+          "system": "dnd5e",
+          "coreVersion": "0.6.4",
+          "systemVersion": 0.93
+        }
+      },
+      "name": "Unarmed Strike (Monk)",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/ice_10.jpg",
+      "data": {
+        "description": {
+          "value": "<p>At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes.</p>\n<p>You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:</p>\n<p>• You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes</p>\n<p>• You can roll a d4 in place of the normal damage of your unarmed strike. This die changes as you gain monk levels, as shown in the Martial Arts column in the table below.</p>\n<p>• When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.</p>\n<table style=\"width: 172px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 79px;\"><strong>Monk Level</strong></td>\n<td style=\"width: 86px;\"><strong>Martial Arts</strong></td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">1st - 4th</td>\n<td style=\"width: 86px;\">1d4</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">5th - 10th</td>\n<td style=\"width: 86px;\">1d6</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">11th - 16th</td>\n<td style=\"width: 86px;\">1d8</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">17th - 20th</td>\n<td style=\"width: 86px;\">1d10</td>\n</tr>\n</tbody>\n</table>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">**Foundry note: Note the damage die is set to the base default of 1d4. Please manually adjust as required.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 77-78",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Uncommon",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 4,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true,
+        "bonus": {
+          "value": 0,
+          "_deprecated": true
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2": {
+          "value": "",
+          "_deprecated": true
+        },
+        "damage2Type": {
+          "value": "",
+          "_deprecated": true
+        }
+      },
+      "sort": 13100001,
+      "labels": {
+        "activation": "1 Action",
+        "target": "",
+        "range": "5 Feet",
+        "duration": "",
+        "recharge": "Recharge [undefined]",
+        "save": "",
+        "damage": "1d6 + @mod",
+        "damageTypes": "Bludgeoning"
+      },
+      "isStack": false,
+      "hasUses": false,
+      "hasTarget": false
+    }
+  ],
+  "_id": "IewTmFWjWlO0LAhz",
+  "img": "icons/svg/mystery-man.svg"
+}
