@@ -1,20 +1,10 @@
 {
-  "_id": "xCBx7tsB5R9wd8dK",
-  "name": "Black Earth Guard",
+  "name": "Kenku",
   "type": "npc",
   "data": {
     "abilities": {
       "str": {
-        "value": 17,
-        "proficient": 0,
-        "mod": 3,
-        "prof": 0,
-        "saveBonus": 0,
-        "checkBonus": 0,
-        "save": 3
-      },
-      "dex": {
-        "value": 11,
+        "value": 10,
         "proficient": 0,
         "mod": 0,
         "prof": 0,
@@ -22,17 +12,26 @@
         "checkBonus": 0,
         "save": 0
       },
-      "con": {
-        "value": 14,
+      "dex": {
+        "value": 16,
         "proficient": 0,
-        "mod": 2,
+        "mod": 3,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": 2
+        "save": 3
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0
       },
       "int": {
-        "value": 10,
+        "value": 11,
         "proficient": 0,
         "mod": 0,
         "prof": 0,
@@ -50,33 +49,33 @@
         "save": 0
       },
       "cha": {
-        "value": 9,
+        "value": 10,
         "proficient": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": -1
+        "save": 0
       }
     },
     "attributes": {
       "ac": {
-        "value": 18
+        "value": 13
       },
       "hp": {
-        "value": 39,
+        "value": 13,
         "min": 0,
-        "max": 39,
+        "max": 13,
         "temp": 0,
         "tempmax": 0,
-        "formula": ""
+        "formula": "3d8"
       },
       "init": {
         "value": 0,
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0
+        "total": 3
       },
       "spellcasting": "int",
       "speed": {
@@ -88,19 +87,19 @@
     },
     "details": {
       "biography": {
-        "value": "",
+        "value": "<p>Kenku are feathered humanoids that wander the world as vagabonds, driven by greed. They can perfectly imitate any sound they hear.</p>\n<p>&nbsp;</p>\n<p><strong>Fallen Flocks</strong>. Kenku wear ill-fitting cloaks, robes, and rags. These garments cover the soft, sleek feathers of their bodies, shrouding their bare arms and legs. They tread lightly when they walk, on talons made for grasping the branches of trees and seizing prey from the lofty skies. Soft as the wind they move, so as not to draw attention to their shameful forms.</p>\n<p>&nbsp;</p>\n<p>Once, the kenku held the wind in their wings, embracing the gusty sky and singing the sweet language of birdsong. Serving a master whose identity is now lost to their memory, the kenku coveted the glittering baubles of his household, and longed to speak so that they could cajole and swindle others out of such treasures. Stealing the secret of speech from a volume in their master&rsquo;s library, they disguised themselves in rags to beg for pretty things. When their master learned of their greed, he stripped away their wings as punishment, forcing them to beg forever.</p>\n<p>&nbsp;</p>\n<p><strong>Speech in Pantomime</strong>. Kenku can mimic the sound of anything they hear. A kenku asking for money might make the sound of coins clinking together, and a kenku referring to a busy marketplace can reproduce the cacophony of hawking vendors, barking dogs, bleating sheep, and the cries of street urchins. When mimicking voices, they can only repeat words and phrases they have heard, not create new sentences. To converse with a kenku is to witness a performance of imitated sounds and almost nonsensical verse.</p>\n<p>&nbsp;</p>\n<p>Kenku speak to one another in much the same way. Because they are adept at interpreting one another&rsquo;s glances and gestures, the sounds they make to communicate complex ideas or emotions can be succinct. Groups of kenku also develop secret codes. For example, a cat&rsquo;s meow might be the secret code for &ldquo;Prepare to attack!&rdquo; or &ldquo;Flee for your lives!&rdquo;</p>\n<p>&nbsp;</p>\n<p>Their talent for mimicry extends to handwriting, and criminal organizations often employ kenku to forge documents. When a kenku commits a crime, it might forge evidence to implicate another creature.</p>\n<p>&nbsp;</p>\n<p><strong>The Wistful Wingless</strong>. All kenku pine for the ability to fly, and thus the punishments they mete out to one another often involve false wings, such as heavy wings of wood borne as a mark of shame. As a final, tragic reminder of the wings they once had, kenku carry out executions by hurling their condemned from tall buildings or cliffs.</p>",
         "public": ""
       },
-      "alignment": "Neutral Evil",
+      "alignment": "Chaotic Neutral",
       "race": "",
       "type": "Humanoid",
       "environment": "",
-      "cr": 2,
+      "cr": 0.25,
       "spellLevel": 0,
       "xp": {
-        "value": 450
+        "value": 50
       },
-      "source": "ToE"
+      "source": "PoA"
     },
     "traits": {
       "size": "med",
@@ -123,9 +122,10 @@
       "senses": "Passive Perception 12",
       "languages": {
         "value": [
+          "auran",
           "common"
         ],
-        "custom": ""
+        "custom": "Understands Common but speaks only through the use of its Mimicry trait"
       }
     },
     "currency": {
@@ -140,10 +140,10 @@
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "ani": {
         "value": 0,
@@ -167,19 +167,19 @@
         "value": 0,
         "ability": "str",
         "bonus": 0,
-        "mod": 3,
+        "mod": 0,
         "prof": 0,
-        "total": 3,
-        "passive": 13
+        "total": 0,
+        "passive": 10
       },
       "dec": {
-        "value": 0,
+        "value": 1,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
-        "prof": 0,
-        "total": -1,
-        "passive": 9
+        "mod": 0,
+        "prof": 2,
+        "total": 2,
+        "passive": 12
       },
       "his": {
         "value": 0,
@@ -200,13 +200,13 @@
         "passive": 10
       },
       "itm": {
-        "value": 1,
+        "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
-        "prof": 2,
-        "total": 1,
-        "passive": 11
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
       },
       "inv": {
         "value": 0,
@@ -248,19 +248,19 @@
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 0,
+        "passive": 10
       },
       "per": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 0,
+        "passive": 10
       },
       "rel": {
         "value": 0,
@@ -275,19 +275,19 @@
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "ste": {
-        "value": 0,
+        "value": 1,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
-        "prof": 0,
-        "total": 0,
-        "passive": 10
+        "mod": 3,
+        "prof": 2,
+        "total": 5,
+        "passive": 15
       },
       "sur": {
         "value": 0,
@@ -393,7 +393,7 @@
       }
     }
   },
-  "sort": 100000,
+  "sort": 100001,
   "flags": {
     "exportSource": {
       "world": "foundryvtt-toe",
@@ -402,12 +402,11 @@
       "systemVersion": 0.96
     }
   },
-  "img": "Black_Earth_Guard.Avatar.png?1601123588429",
   "token": {
     "flags": {},
-    "name": "Black Earth Guard",
+    "name": "Kenku",
     "displayName": 0,
-    "img": "Black_Earth_Guard.Token.png?1601123588429",
+    "img": "Kenku.Token.png?1601123239109",
     "tint": null,
     "width": 1,
     "height": 1,
@@ -422,7 +421,7 @@
     "sightAngle": 360,
     "lightAngle": 360,
     "lightAlpha": 1,
-    "actorId": "xCBx7tsB5R9wd8dK",
+    "actorId": "2mW1aMQ0JQCgDV9S",
     "actorLink": false,
     "actorData": {},
     "disposition": -1,
@@ -433,16 +432,13 @@
   },
   "items": [
     {
-      "_id": "mz5TjFLNtyWsi2uf",
-      "flags": {
-        "_sheetTab": ""
-      },
-      "name": "Multiattack",
+      "_id": "YAKmwS9V7TchJ2Wt",
+      "flags": {},
+      "name": "Ambusher",
       "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
       "data": {
         "description": {
-          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks two using melee.</p>",
+          "value": "<p>In the first round of combat, the kenku has Advantage on attack rolls against any creature it surprised.</p>",
           "chat": "",
           "unidentified": ""
         },
@@ -463,244 +459,17 @@
         },
         "range": {
           "value": null,
-          "long": "",
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": ""
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": "",
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": null
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": null
-        },
-        "properties": {
-          "value": "",
-          "amm": null,
-          "fin": null,
-          "fir": null,
-          "foc": null,
-          "hvy": null,
-          "lgt": null,
-          "lod": null,
-          "rch": null,
-          "rel": null,
-          "ret": null,
-          "spc": null,
-          "thr": null,
-          "two": null,
-          "ver": null
-        },
-        "featType": {
-          "value": "",
-          "_deprecated": null
-        }
-      },
-      "sort": 12200001,
-      "labels": {
-        "featType": "Passive",
-        "activation": "",
-        "target": "",
-        "range": "",
-        "duration": "",
-        "recharge": "Recharge [null]",
-        "save": "",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "Zbx9PXZVcJuU9Dnn",
-      "flags": {
-        "_sheetTab": "description"
-      },
-      "name": "Morningstar",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/items/weapons/morningstar.jpg",
-      "data": {
-        "description": {
-          "value": "<p>A viciously spiked metal orb mounted upon the end of a stout haft makes for a deadly weapon which can puncture armor and flesh alike.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 4,
-        "price": 15,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": null,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d8+@mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "properties": {
-          "value": "",
-          "amm": false,
-          "hvy": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "lgt": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false,
-          "lod": false
-        },
-        "proficient": true
-      },
-      "sort": 2100001,
-      "labels": {
-        "activation": "1 Action",
-        "target": "",
-        "range": "5 Feet",
-        "duration": "",
-        "recharge": "Recharge [undefined]",
-        "save": "",
-        "damage": "1d8+@mod",
-        "damageTypes": "Piercing"
-      },
-      "isStack": false,
-      "hasUses": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "Wcr2pqjSfcBIrSds",
-      "flags": {},
-      "name": "Unyielding",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\">Unyielding. When the priest is subjected to an effect that would move it, knock it&nbsp;</em><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\"><em style=\"box-sizing: border-box; user-select: text;\">prone</em></strong><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\">, or both, it can use its&nbsp;<strong style=\"box-sizing: border-box; user-select: text;\">reaction&nbsp;</strong>to be neither moved nor knocked prone.&nbsp;</em></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
           "long": null,
           "units": ""
         },
         "uses": {
           "value": 0,
           "max": 0,
-          "per": ""
+          "per": null
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
         "ability": null,
@@ -724,11 +493,11 @@
           "charged": false
         }
       },
-      "sort": 12300001,
+      "sort": 100000,
       "img": "icons/svg/mystery-man.svg",
       "labels": {
-        "featType": "Action",
-        "activation": "1 Reaction",
+        "featType": "Passive",
+        "activation": "",
         "target": "",
         "range": "",
         "duration": "",
@@ -742,6 +511,313 @@
       "isOnCooldown": false,
       "isDepleted": false,
       "hasTarget": false
+    },
+    {
+      "_id": "gL4F3rpjZRHJmCbq",
+      "flags": {},
+      "name": "Mimicry",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>The kenku can mimic any sounds it has heard, including voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 200000,
+      "img": "icons/svg/mystery-man.svg",
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "09OC5q47qxYq2vpW",
+      "flags": {},
+      "name": "Shortsword",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/sword-short.jpg",
+      "data": {
+        "description": {
+          "value": "<p>A medium sized blade with a firm crossguard and a leather-wrapped handle. A versatile weapon which makes up in versatility what it lacks in reach.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": 2,
+        "price": 10,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "martialM",
+        "properties": {
+          "fin": true,
+          "lgt": true,
+          "amm": false,
+          "hvy": false,
+          "fir": false,
+          "foc": false,
+          "lod": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": false
+      },
+      "sort": 400000,
+      "labels": {
+        "activation": "1 Action",
+        "target": "",
+        "range": "5 Feet",
+        "duration": "",
+        "recharge": "Recharge [undefined]",
+        "save": "",
+        "damage": "1d6 + @mod",
+        "damageTypes": "Piercing"
+      },
+      "isStack": false,
+      "hasUses": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "dhHWGu8H0NADM8C5",
+      "flags": {},
+      "name": "Shortbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
+      "data": {
+        "description": {
+          "value": "<p>This two handed bow is somewhat smaller than the traditional longbow variant, making it well suited for rapid attacks while on the move or mounted from horseback.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": 2,
+        "price": 25,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 80,
+          "long": 320,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + @mod",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "two": true,
+          "amm": true,
+          "hvy": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "spc": false,
+          "thr": false,
+          "ver": false,
+          "lod": false
+        },
+        "proficient": false
+      },
+      "sort": 2600001,
+      "labels": {
+        "activation": "1 Action",
+        "target": "",
+        "range": "80 / 320 Feet",
+        "duration": "",
+        "recharge": "Recharge [undefined]",
+        "save": "",
+        "damage": "1d6 + @mod",
+        "damageTypes": "Piercing"
+      },
+      "isStack": false,
+      "hasUses": false,
+      "hasTarget": false
     }
-  ]
+  ],
+  "_id": "2mW1aMQ0JQCgDV9S",
+  "img": "Kenku.Avatar.png?1601123239109"
 }

@@ -1,28 +1,19 @@
 {
-  "_id": "xCBx7tsB5R9wd8dK",
-  "name": "Black Earth Guard",
+  "_id": "hJQH5KmmYexRep6a",
+  "name": "Crawling Claw",
   "type": "npc",
   "data": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 13,
         "proficient": 0,
-        "mod": 3,
+        "mod": 1,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": 3
+        "save": 1
       },
       "dex": {
-        "value": 11,
-        "proficient": 0,
-        "mod": 0,
-        "prof": 0,
-        "saveBonus": 0,
-        "checkBonus": 0,
-        "save": 0
-      },
-      "con": {
         "value": 14,
         "proficient": 0,
         "mod": 2,
@@ -31,14 +22,23 @@
         "checkBonus": 0,
         "save": 2
       },
-      "int": {
-        "value": 10,
+      "con": {
+        "value": 11,
         "proficient": 0,
         "mod": 0,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
         "save": 0
+      },
+      "int": {
+        "value": 5,
+        "proficient": 0,
+        "mod": -3,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -3
       },
       "wis": {
         "value": 10,
@@ -50,41 +50,41 @@
         "save": 0
       },
       "cha": {
-        "value": 9,
+        "value": 4,
         "proficient": 0,
-        "mod": -1,
+        "mod": -3,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": -1
+        "save": -3
       }
     },
     "attributes": {
       "ac": {
-        "value": 18
+        "value": 12
       },
       "hp": {
-        "value": 39,
+        "value": 2,
         "min": 0,
-        "max": 39,
+        "max": 2,
         "temp": 0,
         "tempmax": 0,
-        "formula": ""
+        "formula": "1d4"
       },
       "init": {
         "value": 0,
         "bonus": 0,
-        "mod": 0,
+        "mod": 2,
         "prof": 0,
-        "total": 0
+        "total": 2
       },
       "spellcasting": "int",
       "speed": {
-        "value": "30 ft",
-        "special": ""
+        "value": "20",
+        "special": "Climb 20 ft."
       },
       "prof": 2,
-      "spelldc": 10
+      "spelldc": 7
     },
     "details": {
       "biography": {
@@ -93,19 +93,21 @@
       },
       "alignment": "Neutral Evil",
       "race": "",
-      "type": "Humanoid",
+      "type": "Undead",
       "environment": "",
-      "cr": 2,
+      "cr": "0",
       "spellLevel": 0,
       "xp": {
-        "value": 450
+        "value": 10
       },
-      "source": "ToE"
+      "source": "PoA"
     },
     "traits": {
-      "size": "med",
+      "size": "tiny",
       "di": {
-        "value": [],
+        "value": [
+          "poison"
+        ],
         "custom": ""
       },
       "dr": {
@@ -117,15 +119,19 @@
         "custom": ""
       },
       "ci": {
-        "value": [],
-        "custom": ""
+        "value": [
+          "charmed",
+          "exhaustion",
+          "poisoned"
+        ],
+        "custom": "Turn Immunity"
       },
-      "senses": "Passive Perception 12",
+      "senses": "Blindsight 30 ft. (blind beyond this radius), Passive Perception 10",
       "languages": {
         "value": [
           "common"
         ],
-        "custom": ""
+        "custom": "Understands but cannot speak"
       }
     },
     "currency": {
@@ -140,10 +146,10 @@
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 2,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 2,
+        "passive": 12
       },
       "ani": {
         "value": 0,
@@ -158,37 +164,37 @@
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": -3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": -3,
+        "passive": 7
       },
       "ath": {
         "value": 0,
         "ability": "str",
         "bonus": 0,
-        "mod": 3,
+        "mod": 1,
         "prof": 0,
-        "total": 3,
-        "passive": 13
+        "total": 1,
+        "passive": 11
       },
       "dec": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": -3,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": -3,
+        "passive": 7
       },
       "his": {
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": -3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": -3,
+        "passive": 7
       },
       "ins": {
         "value": 0,
@@ -200,22 +206,22 @@
         "passive": 10
       },
       "itm": {
-        "value": 1,
+        "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
-        "prof": 2,
-        "total": 1,
-        "passive": 11
+        "mod": -3,
+        "prof": 0,
+        "total": -3,
+        "passive": 7
       },
       "inv": {
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": -3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": -3,
+        "passive": 7
       },
       "med": {
         "value": 0,
@@ -230,64 +236,64 @@
         "value": 0,
         "ability": "int",
         "bonus": 0,
+        "mod": -3,
+        "prof": 0,
+        "total": -3,
+        "passive": 7
+      },
+      "prc": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
         "mod": 0,
         "prof": 0,
         "total": 0,
         "passive": 10
-      },
-      "prc": {
-        "value": 1,
-        "ability": "wis",
-        "bonus": 0,
-        "mod": 0,
-        "prof": 2,
-        "total": 2,
-        "passive": 12
       },
       "prf": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": -3,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": -3,
+        "passive": 7
       },
       "per": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": -3,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": -3,
+        "passive": 7
       },
       "rel": {
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": -3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": -3,
+        "passive": 7
       },
       "slt": {
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 2,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 2,
+        "passive": 12
       },
       "ste": {
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 2,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 2,
+        "passive": 12
       },
       "sur": {
         "value": 0,
@@ -393,7 +399,7 @@
       }
     }
   },
-  "sort": 100000,
+  "sort": 200000,
   "flags": {
     "exportSource": {
       "world": "foundryvtt-toe",
@@ -402,12 +408,12 @@
       "systemVersion": 0.96
     }
   },
-  "img": "Black_Earth_Guard.Avatar.png?1601123588429",
+  "img": "Crawling_Claw.Avatar.png?1601122637664",
   "token": {
     "flags": {},
-    "name": "Black Earth Guard",
+    "name": "Crawling Claw",
     "displayName": 0,
-    "img": "Black_Earth_Guard.Token.png?1601123588429",
+    "img": "Crawling_Claw.Token.png?1601122637664",
     "tint": null,
     "width": 1,
     "height": 1,
@@ -422,7 +428,7 @@
     "sightAngle": 360,
     "lightAngle": 360,
     "lightAlpha": 1,
-    "actorId": "xCBx7tsB5R9wd8dK",
+    "actorId": "hJQH5KmmYexRep6a",
     "actorLink": false,
     "actorData": {},
     "disposition": -1,
@@ -433,16 +439,19 @@
   },
   "items": [
     {
-      "_id": "mz5TjFLNtyWsi2uf",
+      "_id": "2w7o6RgDB9nMsQUG",
       "flags": {
-        "_sheetTab": ""
+        "_sheetTab": "details",
+        "entityorder": {
+          "order": 150
+        }
       },
-      "name": "Multiattack",
+      "name": "Turn Immunity",
       "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "img": "systems/dnd5e/icons/skills/shadow_12.jpg",
       "data": {
         "description": {
-          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks two using melee.</p>",
+          "value": "<p><strong>Turn Immunity</strong>. The claw is immune to effects that turn undead.&nbsp;</p>",
           "chat": "",
           "unidentified": ""
         },
@@ -458,13 +467,105 @@
         },
         "target": {
           "value": null,
-          "units": "",
-          "type": ""
+          "units": null,
+          "type": "self"
         },
         "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": "",
+          "value": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell",
+          "value": ""
+        },
+        "requirements": "",
+        "recharge": {
           "value": null,
-          "long": "",
+          "charged": false
+        }
+      },
+      "sort": 2300001,
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "Self",
+        "range": "10 Feet",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": true
+    },
+    {
+      "_id": "Cow4hbYISD04jAan",
+      "flags": {
+        "_sheetTab": ""
+      },
+      "name": "Claws",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/skills/red_31.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Claw. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 3 (1d4 + 1) bludgeoning or slashing damage (claw&rsquo;s choice).&nbsp;</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": null,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
           "units": ""
+        },
+        "target": {
+          "value": 1,
+          "units": "",
+          "type": "creature"
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
         },
         "uses": {
           "value": 0,
@@ -475,148 +576,29 @@
         "consume": {
           "type": "",
           "target": "",
-          "amount": ""
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": "",
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": null
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": null
-        },
-        "properties": {
-          "value": "",
-          "amm": null,
-          "fin": null,
-          "fir": null,
-          "foc": null,
-          "hvy": null,
-          "lgt": null,
-          "lod": null,
-          "rch": null,
-          "rel": null,
-          "ret": null,
-          "spc": null,
-          "thr": null,
-          "two": null,
-          "ver": null
-        },
-        "featType": {
-          "value": "",
-          "_deprecated": null
-        }
-      },
-      "sort": 12200001,
-      "labels": {
-        "featType": "Passive",
-        "activation": "",
-        "target": "",
-        "range": "",
-        "duration": "",
-        "recharge": "Recharge [null]",
-        "save": "",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "Zbx9PXZVcJuU9Dnn",
-      "flags": {
-        "_sheetTab": "description"
-      },
-      "name": "Morningstar",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/items/weapons/morningstar.jpg",
-      "data": {
-        "description": {
-          "value": "<p>A viciously spiked metal orb mounted upon the end of a stout haft makes for a deadly weapon which can puncture armor and flesh alike.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 4,
-        "price": 15,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
           "amount": null
         },
         "ability": "str",
         "actionType": "mwak",
         "attackBonus": null,
         "chatFlavor": "",
-        "critical": null,
+        "critical": "",
         "damage": {
           "parts": [
             [
-              "1d8+@mod",
-              "piercing"
+              "1d4 + @mod",
+              "slashing"
             ]
           ],
-          "versatile": ""
+          "versatile": "Bludeoning or Slashing",
+          "value": ""
         },
         "formula": "",
         "save": {
           "ability": "",
           "dc": null,
-          "scaling": "spell"
+          "scaling": "spell",
+          "value": ""
         },
         "armor": {
           "value": 10
@@ -627,121 +609,58 @@
           "dt": null,
           "conditions": ""
         },
-        "weaponType": "martialM",
+        "weaponType": "natural",
         "properties": {
           "value": "",
           "amm": false,
-          "hvy": false,
           "fin": false,
           "fir": false,
           "foc": false,
+          "hvy": false,
           "lgt": false,
+          "lod": false,
           "rch": false,
           "rel": false,
           "ret": false,
           "spc": false,
           "thr": false,
           "two": false,
-          "ver": false,
-          "lod": false
+          "ver": false
         },
-        "proficient": true
-      },
-      "sort": 2100001,
-      "labels": {
-        "activation": "1 Action",
-        "target": "",
-        "range": "5 Feet",
-        "duration": "",
-        "recharge": "Recharge [undefined]",
-        "save": "",
-        "damage": "1d8+@mod",
-        "damageTypes": "Piercing"
-      },
-      "isStack": false,
-      "hasUses": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "Wcr2pqjSfcBIrSds",
-      "flags": {},
-      "name": "Unyielding",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\">Unyielding. When the priest is subjected to an effect that would move it, knock it&nbsp;</em><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\"><em style=\"box-sizing: border-box; user-select: text;\">prone</em></strong><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\">, or both, it can use its&nbsp;<strong style=\"box-sizing: border-box; user-select: text;\">reaction&nbsp;</strong>to be neither moved nor knocked prone.&nbsp;</em></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": null,
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "requirements": "",
+        "proficient": true,
         "recharge": {
           "value": null,
-          "charged": false
+          "charged": null
+        },
+        "time": {
+          "value": "",
+          "_deprecated": null
+        },
+        "damageType": {
+          "value": "",
+          "_deprecated": null
+        },
+        "featType": {
+          "value": "",
+          "_deprecated": null
         }
       },
-      "sort": 12300001,
-      "img": "icons/svg/mystery-man.svg",
+      "sort": 3300001,
       "labels": {
-        "featType": "Action",
-        "activation": "1 Reaction",
-        "target": "",
-        "range": "",
+        "activation": "1 Action",
+        "target": "1 Creature",
+        "range": "5 Feet",
         "duration": "",
         "recharge": "Recharge [null]",
         "save": "",
-        "damage": "",
-        "damageTypes": ""
+        "damage": "1d4 + @mod",
+        "damageTypes": "Slashing"
       },
       "isStack": false,
       "hasUses": false,
       "isOnCooldown": false,
       "isDepleted": false,
-      "hasTarget": false
+      "hasTarget": true
     }
   ]
 }

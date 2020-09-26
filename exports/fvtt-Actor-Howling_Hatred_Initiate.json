@@ -1,4 +1,5 @@
 {
+  "_id": "H0EZF75lk0GMZHpK",
   "name": "Howling Hatred Initiate",
   "type": "npc",
   "data": {
@@ -67,7 +68,7 @@
     "attributes": {
       "ac": {
         "value": 13,
-        "min": 10
+        "min": 11
       },
       "hp": {
         "value": 9,
@@ -75,7 +76,7 @@
         "max": 9,
         "temp": 0,
         "tempmax": 0,
-        "formula": "2d8"
+        "formula": "2d8 + 2"
       },
       "init": {
         "value": 0,
@@ -84,7 +85,7 @@
         "total": 2,
         "prof": 0
       },
-      "spellcasting": "cha",
+      "spellcasting": "",
       "speed": {
         "value": "30 ft.",
         "special": ""
@@ -95,7 +96,7 @@
     },
     "details": {
       "biography": {
-        "value": "<blockquote>\n<p>Wreathed in fantastical golden filigree with incense twirling through the atrium, the pillars of the Solarium glittered, bathed in the warmth of the Sun Lord’s light.&nbsp; From a singular hole hewn into the domed ceiling of the temple, the sunlight poured in as if it were a rushing waterfall meant to drown us all in the bright corona. I strayed from my mentor, a priest in his middle years with a soft voice and ring of grey-dappled hair about a balding head, to approach a statue set aside within a shadowed alcove.&nbsp; It depicted our god in his humanoid form, an elderly man standing strictly at attention, his wild hair hanging as long as his chest length beard, a staff topped with a stern faced sun clutched in his hand.&nbsp; I knelt, still only fourteen, before this statue and began to pray right then.&nbsp; The next six years of my acolyte training would be nothing but a blessing, I knew.&nbsp;<br><em>“The Gleaming Star”, by Bishop Bernard Portis.</em></p>\n</blockquote>\n<p>Acolytes are those devoted followers of a particular goddess or god who have decided to take on the mantle of the clergy to better serve their chosen deity.&nbsp; Often no older than teenagers (though some acolytes begin later in their lives) acolytes are trained for a number of years (typically between three to ten) depending on the strictures of their deity’s doctrines.&nbsp; During their time they memorize and study all written materials concerning their deity and their teachings, learn magics (be they healing or harmful) gifted to the acolytes by their deities, and often go out into their community to provide aid to those in need or proselytize the words of their goddess or god.&nbsp; Though not every acolyte climbs the ranks into full fledged priesthood, many remain highly dedicated to the church and remain to serve as life-long acolytes working closely with the lay community outside the temple walls.</p>\n<p>Recall that acolytes are trained in the arcane ways of their chosen deities.&nbsp; This being the case, acolytes rarely receive sufficient martial training in comparison to the paladin ranks of the temple (unless expressly dictated otherwise by their deity’s teachings).&nbsp; This being the case, the acolyte is able to unleash some basic divine magic in order to both defend themselves and allies or to call upon their patron deity for aid for injured parties.&nbsp; Typically expelled in a gleaming shower of golden sparks and dazzlingly vibrant lights, the magic of the gods is truly something special, even at such a base nature.&nbsp; Spells such as Cure Wounds, Sacred Flame, or Sanctuary are all practiced by acolytes early on into their divine studies.&nbsp; Acolytes can make handy allies should you be in need of divine protection or a field medic for an injured compatriot.&nbsp; Be sure to mind your acolyte well, however, as their spellwork can easily be interrupted if they are forced into a melee fight with a band of slavering gnolls.</p>\n<ul style=\"box-sizing: border-box; user-select: text; font-size: 13px; color: #111111;\">\n<li style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">Token artwork by Forgotten Adventures.</em></li>\n<li style=\"box-sizing: border-box; user-select: text;\"><em style=\"box-sizing: border-box; user-select: text;\">Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>",
+        "value": "<blockquote>\n<p>\".... an' then he tells me, he says, \"Mick! You can't think you'll pull one over on the Crown's Guard again? Not this time!\" he says. Well, ol' Mickey's got a trick or two up his sleeve for just such an occasion. Ain't no need for tricks n' chases when I've snagged an ol' bottle o' them Purple Posies spirits ol' Captain Murrnaband is always prattlin' on about. Ain't no guard as smart or handsome as Mickey Tenteeth!\"</p>\n</blockquote>\n<p>- A story overheard from The Friendly Flumph Inn</p>\n<p>Who among our realm's citizens have not yet interacted with a manner of the Guard profession during their lives? Dwellers of the coastal urban sprawl see the armored law keepers near daily as they patrol the streets, guard our gates, inspect shipments, and of course assist (or arrest) those citizens of their fair cities. However, the guard is not only bound by the gates and ramparts of a city's walls. Be they mercenary or professional, guards are often found patrolling the roads, either to sweep away stray packs of animals or bandits, or on alert to protect precious cargo or important citizens as they travel the less settled areas of the world. Much like the bandits and cultists who we have previously discussed in this tome, guards come in all varieties. Though many may seem to be highly trained and regimented, it should be considered that most guards see no more action than a tussle on the busy streets of a market or scattering a few bandit scavengers from an upturned wagon. Guards are not all the hardened and grizzled ex-military types we think of at the upper ranks of the orders. Be observant, young adventurer, and heed the warnings of the law, for while the guards may only be a minor threat to your dastardly visions, what lays in wait in the city dungeon may not be worth the risks!</p>\n<ul style=\"user-select: text; color: #111111; font-size: 13px;\">\n<li style=\"user-select: text;\"><em style=\"user-select: text;\">Token artwork by Forgotten Adventures.</em></li>\n<li style=\"user-select: text;\"><em style=\"user-select: text;\">Bestiary entry by Penelope (Vyrnali).</em></li>\n</ul>",
         "public": ""
       },
       "alignment": "",
@@ -103,11 +104,11 @@
       "type": "Humanoid",
       "environment": null,
       "cr": 0.125,
-      "spellLevel": 1,
+      "spellLevel": 0,
       "xp": {
         "value": 25
       },
-      "source": "MM pg. 342",
+      "source": "MM pg. 347",
       "class": {}
     },
     "traits": {
@@ -229,13 +230,13 @@
         "total": 0
       },
       "med": {
-        "value": 0.5,
+        "value": 0,
         "ability": "wis",
         "mod": -1,
         "bonus": 0,
-        "passive": 10,
-        "prof": 1,
-        "total": 0
+        "passive": 9,
+        "prof": 0,
+        "total": -1
       },
       "nat": {
         "value": 0,
@@ -313,13 +314,13 @@
     "spells": {
       "spell1": {
         "value": 0,
-        "max": 1,
-        "override": 0
+        "max": 0,
+        "override": null
       },
       "spell2": {
         "value": 0,
-        "max": 1,
-        "override": 1
+        "max": 0,
+        "override": null
       },
       "spell3": {
         "value": 0,
@@ -400,23 +401,23 @@
       }
     }
   },
-  "sort": 200001,
+  "sort": 100001,
   "flags": {
-    "_sheetTab-sidebar": "abilities",
+    "_sheetTab-sidebar": "traits",
     "_sheetTab-primary": "biography",
     "exportSource": {
       "world": "foundryvtt-toe",
       "system": "dnd5e",
-      "coreVersion": "0.6.5",
-      "systemVersion": 0.94
+      "coreVersion": "0.6.6",
+      "systemVersion": 0.96
     }
   },
-  "img": "systems/dnd5e/tokens/humanoid/Acolyte.png",
+  "img": "Howling_Hatred_Initiate.Avatar.png?1601122237274",
   "token": {
     "flags": {},
-    "name": "Acolyte",
-    "displayName": 0,
-    "img": "systems/dnd5e/tokens/humanoid/Acolyte.png",
+    "name": "Guard",
+    "displayName": 20,
+    "img": "Howling_Hatred_Initiate.Token.png?1601122237274",
     "tint": null,
     "width": 1,
     "height": 1,
@@ -431,36 +432,114 @@
     "sightAngle": 360,
     "lightAngle": 360,
     "lightAlpha": 1,
-    "actorId": "JT4SCrONREjLeF4s",
+    "actorId": "H0EZF75lk0GMZHpK",
     "actorLink": false,
     "actorData": {},
     "disposition": -1,
-    "displayBars": 0,
+    "displayBars": 40,
     "bar1": {
-      "attribute": ""
+      "attribute": "attributes.hp"
     },
-    "bar2": {
-      "attribute": ""
-    },
+    "bar2": {},
     "randomImg": false
   },
   "items": [
     {
-      "_id": "38I6bGoguRRefN6W",
+      "_id": "W6BDSrGqhpv0G11n",
       "flags": {},
-      "name": "Spellcasting",
+      "name": "Guiding Wind",
       "type": "feat",
-      "img": "systems/dnd5e/icons/skills/violet_08.jpg",
       "data": {
         "description": {
-          "value": "<section class=\"secret\">\n<p>The acolyte is a 1st-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The acolyte has following cleric spells prepared:</p>\n<p>Cantrips (at will): light, sacred flame, thaumaturgy</p>\n<p>1st level (3 slots): bless, cure wounds, sanctuary</p>\n</section>",
+          "value": "<p><em style=\"box-sizing: inherit; -webkit-tap-highlight-color: transparent; outline: 0px; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px; background-color: #ffffff;\"><strong style=\"box-sizing: inherit; -webkit-tap-highlight-color: transparent; outline: 0px;\">Guiding Wind (Recharges after a Short or Long Rest).</strong></em><span style=\"font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px; background-color: #ffffff;\">&nbsp;As a bonus action, the initiate gains advantage on the next ranged attack roll it makes before the end of its next turn.</span></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "bonus",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": null,
+          "units": "self",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 1,
+          "max": 1,
+          "per": "sr"
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 100000,
+      "img": "icons/svg/mystery-man.svg",
+      "labels": {
+        "featType": "Action",
+        "activation": "Bonus Action",
+        "target": "Self",
+        "range": "",
+        "duration": "1 Rounds",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": true,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "ejF5zDKPOdcOWM3C",
+      "flags": {},
+      "name": "Hold Breath",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><em style=\"box-sizing: inherit; -webkit-tap-highlight-color: transparent; outline: 0px; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px; background-color: #ffffff;\"><strong style=\"box-sizing: inherit; -webkit-tap-highlight-color: transparent; outline: 0px;\">Hold Breath.</strong></em><span style=\"font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px; background-color: #ffffff;\">&nbsp;The initiate can hold its breath for 30 minutes.</span></p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "activation": {
           "type": "",
-          "cost": null,
+          "cost": 0,
           "condition": ""
         },
         "duration": {
@@ -480,46 +559,36 @@
         "uses": {
           "value": 0,
           "max": 0,
-          "per": "",
-          "type": ""
+          "per": null
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
-        "ability": "",
+        "ability": null,
         "actionType": "",
         "attackBonus": 0,
         "chatFlavor": "",
         "critical": null,
         "damage": {
           "parts": [],
-          "versatile": "",
-          "value": ""
+          "versatile": ""
         },
         "formula": "",
         "save": {
           "ability": "",
           "dc": null,
-          "scaling": "spell",
-          "value": ""
+          "scaling": "spell"
         },
         "requirements": "",
         "recharge": {
           "value": null,
           "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
         }
       },
-      "sort": 200001,
+      "sort": 200000,
+      "img": "icons/svg/mystery-man.svg",
       "labels": {
         "featType": "Passive",
         "activation": "",
@@ -538,7 +607,7 @@
       "hasTarget": false
     },
     {
-      "_id": "tHjUOAQHCk1U0mS8",
+      "_id": "XFBJQU4pLdq38us1",
       "flags": {},
       "name": "Dagger",
       "type": "weapon",
@@ -583,12 +652,12 @@
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
-        "ability": "",
+        "ability": null,
         "actionType": "mwak",
-        "attackBonus": 4,
+        "attackBonus": 0,
         "chatFlavor": "",
         "critical": null,
         "damage": {
@@ -650,127 +719,25 @@
       "hasTarget": false
     },
     {
-      "_id": "9CesTheVVOJ9ewHa",
+      "_id": "0i3s6KL8wr1dHgJW",
       "flags": {},
-      "name": "Gust of Wind",
-      "type": "spell",
-      "img": "systems/dnd5e/icons/spells/wind-sky-2.jpg",
+      "name": "Leather Armor",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/items/armor/leather.png",
       "data": {
         "description": {
-          "value": "<p>A line of strong wind 60 feet long and 10 feet wide blasts from you in a direction you choose for the spell's duration. Each creature that starts its turn in the line must succeed on a Strength saving throw or be pushed 15 feet away from you in a direction following the line.</p><p>Any creature in the line must spend 2 feet of movement for every 1 foot it moves when moving closer to you.</p><p>The gust disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.</p><p>As a bonus action on each of your turns before the spell ends, you can change the direction in which the line blasts from you.</p>",
+          "value": "<p>The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "PHB pg. 248",
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 1,
-          "units": "minute"
-        },
-        "target": {
-          "value": 60,
-          "units": "ft",
-          "type": "line"
-        },
-        "range": {
-          "value": null,
-          "long": null,
-          "units": "self"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "save",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "str",
-          "dc": 9,
-          "scaling": "spell"
-        },
-        "level": 2,
-        "school": "evo",
-        "components": {
-          "value": "",
-          "vocal": true,
-          "somatic": true,
-          "material": true,
-          "ritual": false,
-          "concentration": true
-        },
-        "materials": {
-          "value": "A legume seed.",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "preparation": {
-          "mode": "prepared",
-          "prepared": false
-        },
-        "scaling": {
-          "mode": "none",
-          "formula": ""
-        }
-      },
-      "sort": 100001,
-      "labels": {
-        "level": "2nd Level",
-        "school": "Evocation",
-        "components": [
-          "V",
-          "S",
-          "M",
-          "C"
-        ],
-        "materials": "(A legume seed.)",
-        "activation": "1 Action",
-        "target": "60 Feet Line",
-        "range": "Self",
-        "duration": "1 Minutes",
-        "recharge": "Recharge [undefined]",
-        "save": "DC 9 Strength",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "hasTarget": true
-    },
-    {
-      "_id": "NNy0m9x0BH0h47mU",
-      "flags": {
-        "_sheetTab": ""
-      },
-      "name": "Hold Breath",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/blue_36.jpg",
-      "data": {
-        "description": {
-          "value": "<p>The &lt;creature&gt; can hold its breath for 15 minutes.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
+        "source": "PHB pg. 144",
+        "quantity": 1,
+        "weight": 10,
+        "price": 10,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
         "activation": {
           "type": "",
           "cost": 0,
@@ -787,95 +754,68 @@
         },
         "range": {
           "value": null,
-          "long": "",
+          "long": null,
           "units": ""
         },
         "uses": {
           "value": 0,
           "max": 0,
-          "per": "",
-          "type": ""
+          "per": null
         },
         "consume": {
           "type": "",
-          "target": "",
-          "amount": ""
+          "target": null,
+          "amount": null
         },
-        "ability": "",
+        "ability": null,
         "actionType": "",
         "attackBonus": 0,
         "chatFlavor": "",
-        "critical": "",
+        "critical": null,
         "damage": {
-          "parts": [
-            [
-              "",
-              ""
-            ]
-          ],
-          "versatile": "",
-          "value": ""
+          "parts": [],
+          "versatile": ""
         },
         "formula": "",
         "save": {
           "ability": "",
           "dc": null,
-          "scaling": "",
-          "value": ""
+          "scaling": "spell"
         },
-        "requirements": "",
-        "recharge": {
+        "armor": {
+          "value": 11,
+          "type": "light",
+          "dex": null
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "speed": {
           "value": null,
-          "charged": false
+          "conditions": ""
         },
-        "time": {
-          "value": "",
-          "_deprecated": null
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": null
-        },
-        "properties": {
-          "value": "",
-          "amm": null,
-          "fin": null,
-          "fir": null,
-          "foc": null,
-          "hvy": null,
-          "lgt": null,
-          "lod": null,
-          "rch": null,
-          "rel": null,
-          "ret": null,
-          "spc": null,
-          "thr": null,
-          "two": null,
-          "ver": null
-        },
-        "featType": {
-          "value": "",
-          "_deprecated": null
-        }
+        "strength": null,
+        "stealth": false,
+        "proficient": false
       },
-      "sort": 8600001,
+      "sort": 200000,
       "labels": {
-        "featType": "Passive",
+        "armor": "11 AC",
         "activation": "",
         "target": "",
         "range": "",
         "duration": "",
-        "recharge": "Recharge [null]",
+        "recharge": "Recharge [undefined]",
         "save": "",
         "damage": "",
         "damageTypes": ""
       },
       "isStack": false,
       "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
       "hasTarget": false
     }
-  ],
-  "_id": "JT4SCrONREjLeF4s"
+  ]
 }

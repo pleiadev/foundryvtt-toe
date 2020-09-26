@@ -1,11 +1,19 @@
 {
-  "_id": "xCBx7tsB5R9wd8dK",
-  "name": "Black Earth Guard",
+  "name": "Aerisi Kalinoth",
   "type": "npc",
   "data": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 8,
+        "proficient": 0,
+        "mod": -1,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": -1
+      },
+      "dex": {
+        "value": 16,
         "proficient": 0,
         "mod": 3,
         "prof": 0,
@@ -13,32 +21,23 @@
         "checkBonus": 0,
         "save": 3
       },
-      "dex": {
-        "value": 11,
-        "proficient": 0,
-        "mod": 0,
-        "prof": 0,
-        "saveBonus": 0,
-        "checkBonus": 0,
-        "save": 0
-      },
       "con": {
-        "value": 14,
+        "value": 12,
         "proficient": 0,
-        "mod": 2,
+        "mod": 1,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": 2
+        "save": 1
       },
       "int": {
-        "value": 10,
+        "value": 17,
         "proficient": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": 0
+        "save": 3
       },
       "wis": {
         "value": 10,
@@ -50,41 +49,41 @@
         "save": 0
       },
       "cha": {
-        "value": 9,
+        "value": 16,
         "proficient": 0,
-        "mod": -1,
+        "mod": 3,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": -1
+        "save": 3
       }
     },
     "attributes": {
       "ac": {
-        "value": 18
+        "value": 13
       },
       "hp": {
-        "value": 39,
+        "value": 66,
         "min": 0,
-        "max": 39,
+        "max": 66,
         "temp": 0,
         "tempmax": 0,
-        "formula": ""
+        "formula": "12d8+12"
       },
       "init": {
         "value": 0,
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0
+        "total": 3
       },
       "spellcasting": "int",
       "speed": {
         "value": "30 ft",
         "special": ""
       },
-      "prof": 2,
-      "spelldc": 10
+      "prof": 3,
+      "spelldc": 14
     },
     "details": {
       "biography": {
@@ -93,14 +92,14 @@
       },
       "alignment": "Neutral Evil",
       "race": "",
-      "type": "Humanoid",
+      "type": "Humanoid [Elf]",
       "environment": "",
-      "cr": 2,
+      "cr": 7,
       "spellLevel": 0,
       "xp": {
-        "value": 450
+        "value": 2900
       },
-      "source": "ToE"
+      "source": "PoA"
     },
     "traits": {
       "size": "med",
@@ -109,7 +108,9 @@
         "custom": ""
       },
       "dr": {
-        "value": [],
+        "value": [
+          "lightning"
+        ],
         "custom": ""
       },
       "dv": {
@@ -120,10 +121,12 @@
         "value": [],
         "custom": ""
       },
-      "senses": "Passive Perception 12",
+      "senses": "Darkvision 60 ft., Passive Perception 13",
       "languages": {
         "value": [
-          "common"
+          "auran",
+          "common",
+          "elvish"
         ],
         "custom": ""
       }
@@ -140,10 +143,10 @@
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "ani": {
         "value": 0,
@@ -155,40 +158,40 @@
         "passive": 10
       },
       "arc": {
-        "value": 0,
+        "value": 1,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
-        "prof": 0,
-        "total": 0,
-        "passive": 10
+        "mod": 3,
+        "prof": 3,
+        "total": 6,
+        "passive": 16
       },
       "ath": {
         "value": 0,
         "ability": "str",
-        "bonus": 0,
-        "mod": 3,
-        "prof": 0,
-        "total": 3,
-        "passive": 13
-      },
-      "dec": {
-        "value": 0,
-        "ability": "cha",
         "bonus": 0,
         "mod": -1,
         "prof": 0,
         "total": -1,
         "passive": 9
       },
-      "his": {
+      "dec": {
         "value": 0,
+        "ability": "cha",
+        "bonus": 0,
+        "mod": 3,
+        "prof": 0,
+        "total": 3,
+        "passive": 13
+      },
+      "his": {
+        "value": 1,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
-        "prof": 0,
-        "total": 0,
-        "passive": 10
+        "mod": 3,
+        "prof": 3,
+        "total": 6,
+        "passive": 16
       },
       "ins": {
         "value": 0,
@@ -200,22 +203,22 @@
         "passive": 10
       },
       "itm": {
-        "value": 1,
+        "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
-        "prof": 2,
-        "total": 1,
-        "passive": 11
+        "mod": 3,
+        "prof": 0,
+        "total": 3,
+        "passive": 13
       },
       "inv": {
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "med": {
         "value": 0,
@@ -230,64 +233,64 @@
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "prc": {
         "value": 1,
         "ability": "wis",
         "bonus": 0,
         "mod": 0,
-        "prof": 2,
-        "total": 2,
-        "passive": 12
+        "prof": 3,
+        "total": 3,
+        "passive": 13
       },
       "prf": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 3,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 3,
+        "passive": 13
       },
       "per": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 3,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 3,
+        "passive": 13
       },
       "rel": {
         "value": 0,
         "ability": "int",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "slt": {
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "ste": {
         "value": 0,
         "ability": "dex",
         "bonus": 0,
-        "mod": 0,
+        "mod": 3,
         "prof": 0,
-        "total": 0,
-        "passive": 10
+        "total": 3,
+        "passive": 13
       },
       "sur": {
         "value": 0,
@@ -384,8 +387,8 @@
         "max": 0
       },
       "legres": {
-        "value": 0,
-        "max": 0
+        "value": 2,
+        "max": 2
       },
       "lair": {
         "value": false,
@@ -393,7 +396,7 @@
       }
     }
   },
-  "sort": 100000,
+  "sort": 100001,
   "flags": {
     "exportSource": {
       "world": "foundryvtt-toe",
@@ -402,12 +405,11 @@
       "systemVersion": 0.96
     }
   },
-  "img": "Black_Earth_Guard.Avatar.png?1601123588429",
   "token": {
     "flags": {},
-    "name": "Black Earth Guard",
+    "name": "Aerisi Kalinoth",
     "displayName": 0,
-    "img": "Black_Earth_Guard.Token.png?1601123588429",
+    "img": "Aerisi_Kalinoth.Token.png?1601120333883",
     "tint": null,
     "width": 1,
     "height": 1,
@@ -422,7 +424,7 @@
     "sightAngle": 360,
     "lightAngle": 360,
     "lightAlpha": 1,
-    "actorId": "xCBx7tsB5R9wd8dK",
+    "actorId": "H0etMbcVKY1oaFOz",
     "actorLink": false,
     "actorData": {},
     "disposition": -1,
@@ -433,250 +435,20 @@
   },
   "items": [
     {
-      "_id": "mz5TjFLNtyWsi2uf",
-      "flags": {
-        "_sheetTab": ""
-      },
-      "name": "Multiattack",
+      "_id": "4cQHzUO4uCUP4Ar9",
+      "flags": {},
+      "name": "Fey Ancestry",
       "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
       "data": {
         "description": {
-          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks two using melee.</p>",
+          "value": "<p>Fey Ancestry. Aerisi has <strong>advantage </strong>on saving throws against being <strong>charmed</strong>, and <strong>magic can&rsquo;t put her to sleep</strong>.</p>",
           "chat": "",
           "unidentified": ""
         },
-        "source": "",
+        "source": "PoA",
         "activation": {
           "type": "",
           "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": "",
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": ""
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": "",
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": null
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": null
-        },
-        "properties": {
-          "value": "",
-          "amm": null,
-          "fin": null,
-          "fir": null,
-          "foc": null,
-          "hvy": null,
-          "lgt": null,
-          "lod": null,
-          "rch": null,
-          "rel": null,
-          "ret": null,
-          "spc": null,
-          "thr": null,
-          "two": null,
-          "ver": null
-        },
-        "featType": {
-          "value": "",
-          "_deprecated": null
-        }
-      },
-      "sort": 12200001,
-      "labels": {
-        "featType": "Passive",
-        "activation": "",
-        "target": "",
-        "range": "",
-        "duration": "",
-        "recharge": "Recharge [null]",
-        "save": "",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "Zbx9PXZVcJuU9Dnn",
-      "flags": {
-        "_sheetTab": "description"
-      },
-      "name": "Morningstar",
-      "type": "weapon",
-      "img": "systems/dnd5e/icons/items/weapons/morningstar.jpg",
-      "data": {
-        "description": {
-          "value": "<p>A viciously spiked metal orb mounted upon the end of a stout haft makes for a deadly weapon which can puncture armor and flesh alike.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 149",
-        "quantity": 1,
-        "weight": 4,
-        "price": 15,
-        "attuned": false,
-        "equipped": false,
-        "rarity": "Common",
-        "identified": true,
-        "activation": {
-          "type": "action",
-          "cost": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": 0,
-          "units": ""
-        },
-        "target": {
-          "value": 0,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": 5,
-          "long": 0,
-          "units": "ft"
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": null
-        },
-        "ability": "str",
-        "actionType": "mwak",
-        "attackBonus": null,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [
-            [
-              "1d8+@mod",
-              "piercing"
-            ]
-          ],
-          "versatile": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell"
-        },
-        "armor": {
-          "value": 10
-        },
-        "hp": {
-          "value": 0,
-          "max": 0,
-          "dt": null,
-          "conditions": ""
-        },
-        "weaponType": "martialM",
-        "properties": {
-          "value": "",
-          "amm": false,
-          "hvy": false,
-          "fin": false,
-          "fir": false,
-          "foc": false,
-          "lgt": false,
-          "rch": false,
-          "rel": false,
-          "ret": false,
-          "spc": false,
-          "thr": false,
-          "two": false,
-          "ver": false,
-          "lod": false
-        },
-        "proficient": true
-      },
-      "sort": 2100001,
-      "labels": {
-        "activation": "1 Action",
-        "target": "",
-        "range": "5 Feet",
-        "duration": "",
-        "recharge": "Recharge [undefined]",
-        "save": "",
-        "damage": "1d8+@mod",
-        "damageTypes": "Piercing"
-      },
-      "isStack": false,
-      "hasUses": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "Wcr2pqjSfcBIrSds",
-      "flags": {},
-      "name": "Unyielding",
-      "type": "feat",
-      "data": {
-        "description": {
-          "value": "<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\">Unyielding. When the priest is subjected to an effect that would move it, knock it&nbsp;</em><strong style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\"><em style=\"box-sizing: border-box; user-select: text;\">prone</em></strong><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-family: 'Scala Sans Offc', Roboto, Helvetica, sans-serif; font-size: 15px;\">, or both, it can use its&nbsp;<strong style=\"box-sizing: border-box; user-select: text;\">reaction&nbsp;</strong>to be neither moved nor knocked prone.&nbsp;</em></p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "reaction",
-          "cost": 1,
           "condition": ""
         },
         "duration": {
@@ -696,11 +468,11 @@
         "uses": {
           "value": 0,
           "max": 0,
-          "per": ""
+          "per": null
         },
         "consume": {
           "type": "",
-          "target": "",
+          "target": null,
           "amount": null
         },
         "ability": null,
@@ -724,11 +496,173 @@
           "charged": false
         }
       },
-      "sort": 12300001,
+      "sort": 100000,
       "img": "icons/svg/mystery-man.svg",
       "labels": {
-        "featType": "Action",
-        "activation": "1 Reaction",
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "2jR6fpQnmDPzUUSW",
+      "flags": {},
+      "name": "Howling Defeat",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Howling Defeat. When Aerisi <strong>drops to 0 hit points</strong>, her body disappears in a howling whirlwind that disperses quickly and harmlessly. Anything she is wearing or carrying is left behind.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 200000,
+      "img": "systems/dnd5e/icons/skills/yellow_18.jpg",
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "xjnOoo8i6q7xLjL5",
+      "flags": {},
+      "name": "Legendary Resistance",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p>Legendary Resistance (2/Day). If Aerisi fails a saving throw, she can choose to succeed instead.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "Using Aerisi legendary resistance she succeeds on her saving throw.",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 300000,
+      "img": "icons/svg/mystery-man.svg",
+      "labels": {
+        "featType": "Passive",
+        "activation": "",
         "target": "",
         "range": "",
         "duration": "",
@@ -743,5 +677,7 @@
       "isDepleted": false,
       "hasTarget": false
     }
-  ]
+  ],
+  "_id": "H0etMbcVKY1oaFOz",
+  "img": "Aerisi_Kalinoth.Avatar.png?1601120333883"
 }

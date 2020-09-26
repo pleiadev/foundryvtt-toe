@@ -1,20 +1,19 @@
 {
-  "_id": "IewTmFWjWlO0LAhz",
-  "name": "Sacred Stone Monk",
+  "name": "Goblin Boss",
   "type": "npc",
   "data": {
     "abilities": {
       "str": {
-        "value": 13,
+        "value": 10,
         "proficient": 0,
-        "mod": 1,
+        "mod": 0,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": 1
+        "save": 0
       },
       "dex": {
-        "value": 15,
+        "value": 14,
         "proficient": 0,
         "mod": 2,
         "prof": 0,
@@ -23,13 +22,13 @@
         "save": 2
       },
       "con": {
-        "value": 12,
+        "value": 10,
         "proficient": 0,
-        "mod": 1,
+        "mod": 0,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
-        "save": 1
+        "save": 0
       },
       "int": {
         "value": 10,
@@ -41,35 +40,36 @@
         "save": 0
       },
       "wis": {
-        "value": 14,
-        "proficient": 0,
-        "mod": 2,
-        "prof": 0,
-        "saveBonus": 0,
-        "checkBonus": 0,
-        "save": 2
-      },
-      "cha": {
-        "value": 9,
+        "value": 8,
         "proficient": 0,
         "mod": -1,
         "prof": 0,
         "saveBonus": 0,
         "checkBonus": 0,
         "save": -1
+      },
+      "cha": {
+        "value": 10,
+        "proficient": 0,
+        "mod": 0,
+        "prof": 0,
+        "saveBonus": 0,
+        "checkBonus": 0,
+        "save": 0
       }
     },
     "attributes": {
       "ac": {
-        "value": 14
+        "value": 17,
+        "min": 10
       },
       "hp": {
-        "value": 22,
+        "value": 21,
         "min": 0,
-        "max": 22,
+        "max": 21,
         "temp": 0,
         "tempmax": 0,
-        "formula": ""
+        "formula": "6d6"
       },
       "init": {
         "value": 0,
@@ -80,30 +80,34 @@
       },
       "spellcasting": "int",
       "speed": {
-        "value": "40 ft",
+        "value": "30",
         "special": ""
       },
       "prof": 2,
-      "spelldc": 10
+      "spelldc": 10,
+      "spellLevel": 0
     },
     "details": {
       "biography": {
-        "value": "",
-        "public": ""
+        "value": "<p>Goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings. Individually weak, they gather in large numbers to torment other creatures.</p>",
+        "public": "<p>Goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings. Individually weak, they gather in large numbers to torment other creatures.</p>"
       },
-      "alignment": "Lawful Evil",
-      "race": "",
-      "type": "Humanoid",
-      "environment": "",
-      "cr": 0.5,
+      "alignment": "neutral evil",
+      "race": "goblinoid",
+      "type": "humanoid [Goblin]",
+      "environment": "forest, grassland, hill, underdark",
+      "cr": 1,
       "spellLevel": 0,
       "xp": {
-        "value": 100
+        "value": 200,
+        "xp": {
+          "value": 50
+        }
       },
-      "source": "ToE"
+      "source": "Basic Rules, pg. 138"
     },
     "traits": {
-      "size": "med",
+      "size": "sm",
       "di": {
         "value": [],
         "custom": ""
@@ -120,10 +124,11 @@
         "value": [],
         "custom": ""
       },
-      "senses": "Tremorsense 10 ft, Passive Perception 14",
+      "senses": "Darkvision 60 ft., Passive Perception 9",
       "languages": {
         "value": [
-          "common"
+          "common",
+          "goblin"
         ],
         "custom": ""
       }
@@ -137,22 +142,22 @@
     },
     "skills": {
       "acr": {
-        "value": 1,
-        "ability": "dex",
-        "bonus": 0,
-        "mod": 2,
-        "prof": 2,
-        "total": 4,
-        "passive": 14
-      },
-      "ani": {
         "value": 0,
-        "ability": "wis",
+        "ability": "dex",
         "bonus": 0,
         "mod": 2,
         "prof": 0,
         "total": 2,
         "passive": 12
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonus": 0,
+        "mod": -1,
+        "prof": 0,
+        "total": -1,
+        "passive": 9
       },
       "arc": {
         "value": 0,
@@ -164,22 +169,22 @@
         "passive": 10
       },
       "ath": {
-        "value": 1,
+        "value": 0,
         "ability": "str",
         "bonus": 0,
-        "mod": 1,
-        "prof": 2,
-        "total": 3,
-        "passive": 13
+        "mod": 0,
+        "prof": 0,
+        "total": 0,
+        "passive": 10
       },
       "dec": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 0,
+        "passive": 10
       },
       "his": {
         "value": 0,
@@ -194,19 +199,19 @@
         "value": 0,
         "ability": "wis",
         "bonus": 0,
-        "mod": 2,
+        "mod": -1,
         "prof": 0,
-        "total": 2,
-        "passive": 12
+        "total": -1,
+        "passive": 9
       },
       "itm": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 0,
+        "passive": 10
       },
       "inv": {
         "value": 0,
@@ -221,10 +226,10 @@
         "value": 0,
         "ability": "wis",
         "bonus": 0,
-        "mod": 2,
+        "mod": -1,
         "prof": 0,
-        "total": 2,
-        "passive": 12
+        "total": -1,
+        "passive": 9
       },
       "nat": {
         "value": 0,
@@ -236,31 +241,31 @@
         "passive": 10
       },
       "prc": {
-        "value": 1,
+        "value": 0,
         "ability": "wis",
         "bonus": 0,
-        "mod": 2,
-        "prof": 2,
-        "total": 4,
-        "passive": 14
+        "mod": -1,
+        "prof": 0,
+        "total": -1,
+        "passive": 9
       },
       "prf": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 0,
+        "passive": 10
       },
       "per": {
         "value": 0,
         "ability": "cha",
         "bonus": 0,
-        "mod": -1,
+        "mod": 0,
         "prof": 0,
-        "total": -1,
-        "passive": 9
+        "total": 0,
+        "passive": 10
       },
       "rel": {
         "value": 0,
@@ -281,22 +286,22 @@
         "passive": 12
       },
       "ste": {
-        "value": 0,
+        "value": 2,
         "ability": "dex",
         "bonus": 0,
         "mod": 2,
-        "prof": 0,
-        "total": 2,
-        "passive": 12
+        "prof": 4,
+        "total": 6,
+        "passive": 16
       },
       "sur": {
         "value": 0,
         "ability": "wis",
         "bonus": 0,
-        "mod": 2,
+        "mod": -1,
         "prof": 0,
-        "total": 2,
-        "passive": 12
+        "total": -1,
+        "passive": 9
       }
     },
     "spells": {
@@ -350,6 +355,10 @@
         "max": 0,
         "override": null,
         "level": 0
+      },
+      "spell0": {
+        "value": 0,
+        "max": 0
       }
     },
     "bonuses": {
@@ -393,8 +402,15 @@
       }
     }
   },
-  "sort": 300000,
+  "sort": 200001,
   "flags": {
+    "vtta": {
+      "dndbeyond": {
+        "url": "https://www.dndbeyond.com/monsters/goblin",
+        "spells": [],
+        "img": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/351/1000/1000/636252777818652432.jpeg"
+      }
+    },
     "exportSource": {
       "world": "foundryvtt-toe",
       "system": "dnd5e",
@@ -404,24 +420,24 @@
   },
   "token": {
     "flags": {},
-    "name": "Sacred Stone Monk",
+    "name": "Goblin",
     "displayName": 0,
-    "img": "Sacred_Stone_Monk.Token.png?1601123537464",
+    "img": "imports/avatars/npc-Goblin.jpeg",
     "tint": null,
     "width": 1,
     "height": 1,
     "scale": 1,
     "lockRotation": false,
     "rotation": 0,
-    "vision": false,
-    "dimSight": 0,
+    "vision": true,
+    "dimSight": 60,
     "brightSight": 0,
     "dimLight": 0,
     "brightLight": 0,
     "sightAngle": 360,
     "lightAngle": 360,
     "lightAlpha": 1,
-    "actorId": "IewTmFWjWlO0LAhz",
+    "actorId": "8mVQ1OlbTp8P32yg",
     "actorLink": false,
     "actorData": {},
     "disposition": -1,
@@ -432,18 +448,16 @@
   },
   "items": [
     {
-      "_id": "b27dAysCbsZW7AbQ",
-      "flags": {
-        "_sheetTab": ""
-      },
-      "name": "Multiattack",
+      "_id": "QHaG9vHmpxsQ2pt4",
+      "flags": {},
+      "name": "Nimble Escape",
       "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "img": "systems/dnd5e/icons/skills/red_27.jpg",
       "data": {
         "description": {
-          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks <strong>two</strong> using melee.</p>",
-          "chat": "",
-          "unidentified": ""
+          "value": "<p>The goblin can take the <a class=\"tooltip-hover action-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#Disengage\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/actions/5-tooltip?disable-webm=1&amp;disable-webm=1\">Disengage</a> or <a class=\"tooltip-hover action-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#Hide\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/actions/8-tooltip?disable-webm=1&amp;disable-webm=1\">Hide</a> action as a bonus action on each of its turns.</p>",
+          "chat": "<p>The goblin can take the <a class=\"tooltip-hover action-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#Disengage\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/actions/5-tooltip?disable-webm=1&amp;disable-webm=1\">Disengage</a> or <a class=\"tooltip-hover action-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#Hide\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/actions/8-tooltip?disable-webm=1&amp;disable-webm=1\">Hide</a> action as a bonus action on each of its turns.</p>",
+          "unidentified": "<p>The goblin can take the <a class=\"tooltip-hover action-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#Disengage\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/actions/5-tooltip?disable-webm=1&amp;disable-webm=1\">Disengage</a> or <a class=\"tooltip-hover action-tooltip\" href=\"https://www.dndbeyond.com/compendium/rules/basic-rules/combat#Hide\" data-tooltip-href=\"https://www.dndbeyond.com/www.dndbeyond.com/actions/8-tooltip?disable-webm=1&amp;disable-webm=1\">Hide</a> action as a bonus action on each of its turns.</p>"
         },
         "source": "",
         "activation": {
@@ -462,366 +476,41 @@
         },
         "range": {
           "value": null,
-          "long": "",
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": "",
-          "amount": ""
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": "",
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "",
-          "value": ""
-        },
-        "requirements": "",
-        "recharge": {
-          "value": null,
-          "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": null
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": null
-        },
-        "properties": {
-          "value": "",
-          "amm": null,
-          "fin": null,
-          "fir": null,
-          "foc": null,
-          "hvy": null,
-          "lgt": null,
-          "lod": null,
-          "rch": null,
-          "rel": null,
-          "ret": null,
-          "spc": null,
-          "thr": null,
-          "two": null,
-          "ver": null
-        },
-        "featType": {
-          "value": "",
-          "_deprecated": null
-        }
-      },
-      "sort": 12200001,
-      "labels": {
-        "featType": "Passive",
-        "activation": "",
-        "target": "",
-        "range": "",
-        "duration": "",
-        "recharge": "Recharge [null]",
-        "save": "",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "CTuFfH6Kzf3T1u7R",
-      "flags": {
-        "_sheetTab": "description",
-        "entityorder": {
-          "order": 170
-        }
-      },
-      "name": "Unarmored Defense (Monk)",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/blue_35.jpg",
-      "data": {
-        "description": {
-          "value": "<p>Beginning at 1st Level, while you are wearing no armor and not wielding a Shield, your AC equals 10 + your Dexterity modifier + your Wisdom modifier.</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 78",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": "",
           "long": null,
           "units": ""
         },
         "uses": {
           "value": 0,
           "max": 0,
-          "per": null,
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "Monk 1",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 12300001,
-      "labels": {
-        "featType": "Passive",
-        "activation": "",
-        "target": "",
-        "range": "",
-        "duration": "",
-        "recharge": "Recharge [null]",
-        "save": "",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "vWA7XWWga80jSATc",
-      "flags": {
-        "_sheetTab": "description",
-        "entityorder": {
-          "order": 169
-        }
-      },
-      "name": "Unarmored Movement",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/green_16.jpg",
-      "data": {
-        "description": {
-          "value": "<p>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the table below.&nbsp;</p>\n<p>At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</p>\n<table style=\"width: 227px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 79px;\"><strong>Monk Level</strong></td>\n<td style=\"width: 141px;\"><strong>Unarmored Movement</strong></td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">2nd</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">3rd</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">4th</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">5th</td>\n<td style=\"width: 141px;\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">6th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">7th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">8th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">9th</td>\n<td style=\"width: 141px;\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">10th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">11th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">12th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">13th</td>\n<td style=\"width: 141px;\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">14th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">15th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">16th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">17th</td>\n<td style=\"width: 141px;\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">18th</td>\n<td style=\"width: 141px;\">+30 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">19th</td>\n<td style=\"width: 141px;\">+30 ft.</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">20th</td>\n<td style=\"width: 141px;\">+30 ft.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "PHB pg. 77-78",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": "",
-          "units": ""
-        },
-        "target": {
-          "value": "",
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": "",
-          "long": null,
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": null,
-          "type": ""
-        },
-        "consume": {
-          "type": "",
-          "target": null,
-          "amount": null
-        },
-        "ability": "",
-        "actionType": "",
-        "attackBonus": 0,
-        "chatFlavor": "",
-        "critical": null,
-        "damage": {
-          "parts": [],
-          "versatile": "",
-          "value": ""
-        },
-        "formula": "",
-        "save": {
-          "ability": "",
-          "dc": null,
-          "scaling": "spell",
-          "value": ""
-        },
-        "requirements": "Monk 2 ",
-        "recharge": {
-          "value": null,
-          "charged": false
-        }
-      },
-      "sort": 12400001,
-      "labels": {
-        "featType": "Passive",
-        "activation": "",
-        "target": "",
-        "range": "",
-        "duration": "",
-        "recharge": "Recharge [null]",
-        "save": "",
-        "damage": "",
-        "damageTypes": ""
-      },
-      "isStack": false,
-      "hasUses": false,
-      "isOnCooldown": false,
-      "isDepleted": false,
-      "hasTarget": false
-    },
-    {
-      "_id": "hblPFtoXIxNhSWvx",
-      "flags": {
-        "_sheetTab": ""
-      },
-      "name": "Parry",
-      "type": "feat",
-      "img": "systems/dnd5e/icons/skills/weapon_21.jpg",
-      "data": {
-        "description": {
-          "value": "<p>The &lt;creature&gt; adds 2 to its AC against one melee attack that would hit it. To do so, the &lt;creature&gt; must see the attacker and be wielding a melee weapon.</p> ",
-          "chat": "",
-          "unidentified": ""
-        },
-        "source": "",
-        "activation": {
-          "type": "",
-          "cost": 0,
-          "condition": ""
-        },
-        "duration": {
-          "value": null,
-          "units": ""
-        },
-        "target": {
-          "value": null,
-          "units": "",
-          "type": ""
-        },
-        "range": {
-          "value": null,
-          "long": "",
-          "units": ""
-        },
-        "uses": {
-          "value": 0,
-          "max": 0,
-          "per": "",
-          "type": ""
+          "per": ""
         },
         "consume": {
           "type": "",
           "target": "",
-          "amount": ""
+          "amount": null
         },
         "ability": "",
-        "actionType": "",
+        "actionType": "other",
         "attackBonus": 0,
         "chatFlavor": "",
-        "critical": "",
+        "critical": null,
         "damage": {
           "parts": [],
-          "versatile": "",
-          "value": ""
+          "versatile": ""
         },
         "formula": "",
         "save": {
           "ability": "",
           "dc": null,
-          "scaling": "spell",
-          "value": ""
+          "scaling": "flat"
         },
         "requirements": "",
         "recharge": {
           "value": null,
           "charged": false
-        },
-        "time": {
-          "value": "",
-          "_deprecated": null
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": null
-        },
-        "properties": {
-          "value": "",
-          "amm": null,
-          "fin": null,
-          "fir": null,
-          "foc": null,
-          "hvy": null,
-          "lgt": null,
-          "lod": null,
-          "rch": null,
-          "rel": null,
-          "ret": null,
-          "spc": null,
-          "thr": null,
-          "two": null,
-          "ver": null
-        },
-        "featType": {
-          "value": "",
-          "_deprecated": null
         }
       },
-      "sort": 13000001,
+      "sort": 100000,
       "labels": {
         "featType": "Passive",
         "activation": "",
@@ -840,31 +529,24 @@
       "hasTarget": false
     },
     {
-      "_id": "MihNTyXUb1DJ0QeF",
-      "flags": {
-        "exportSource": {
-          "world": "062test",
-          "system": "dnd5e",
-          "coreVersion": "0.6.4",
-          "systemVersion": 0.93
-        }
-      },
-      "name": "Unarmed Strike (Monk)",
+      "_id": "Ztz1fHf4RTmr9B45",
+      "flags": {},
+      "name": "Scimitar",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/skills/ice_10.jpg",
+      "img": "systems/dnd5e/icons/items/weapons/sword-curved.jpg",
       "data": {
         "description": {
-          "value": "<p>At 1st level, your practice of martial arts gives you mastery of combat styles that use unarmed strikes.</p>\n<p>You gain the following benefits while you are unarmed or wielding only monk weapons and you aren’t wearing armor or wielding a shield:</p>\n<p>• You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes</p>\n<p>• You can roll a d4 in place of the normal damage of your unarmed strike. This die changes as you gain monk levels, as shown in the Martial Arts column in the table below.</p>\n<p>• When you use the Attack action with an unarmed strike on your turn, you can make one unarmed strike as a bonus action, assuming you haven’t already taken a bonus action this turn.</p>\n<table style=\"width: 172px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 79px;\"><strong>Monk Level</strong></td>\n<td style=\"width: 86px;\"><strong>Martial Arts</strong></td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">1st - 4th</td>\n<td style=\"width: 86px;\">1d4</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">5th - 10th</td>\n<td style=\"width: 86px;\">1d6</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">11th - 16th</td>\n<td style=\"width: 86px;\">1d8</td>\n</tr>\n<tr>\n<td style=\"width: 79px;\">17th - 20th</td>\n<td style=\"width: 86px;\">1d10</td>\n</tr>\n</tbody>\n</table>\n<p><em style=\"box-sizing: border-box; user-select: text; color: #191813; font-size: 13px;\">**Foundry note: Note the damage die is set to the base default of 1d4. Please manually adjust as required.</em></p>",
+          "value": "Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) slashing damage.",
           "chat": "",
-          "unidentified": ""
+          "unidentified": "Scimitar"
         },
-        "source": "PHB pg. 77-78",
+        "source": "",
         "quantity": 1,
         "weight": 0,
         "price": 0,
         "attuned": false,
-        "equipped": false,
-        "rarity": "Uncommon",
+        "equipped": true,
+        "rarity": "Common",
         "identified": true,
         "activation": {
           "type": "action",
@@ -882,8 +564,8 @@
         },
         "range": {
           "value": 5,
-          "long": null,
-          "units": "ft"
+          "long": 5,
+          "units": ""
         },
         "uses": {
           "value": 0,
@@ -897,14 +579,412 @@
         },
         "ability": "dex",
         "actionType": "mwak",
-        "attackBonus": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + 2",
+              "slashing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleM",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "hvy": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "foc": false,
+          "lod": false,
+          "ret": false
+        },
+        "proficient": true,
+        "recharge": {
+          "value": null,
+          "charged": true
+        }
+      },
+      "sort": 200000,
+      "labels": {
+        "activation": "1 Action",
+        "target": "",
+        "range": "5 / 5",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "1d6 + 2",
+        "damageTypes": "Slashing"
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "kffL6PuvbjlgnArI",
+      "flags": {},
+      "name": "Shortbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/bow-short.jpg",
+      "data": {
+        "description": {
+          "value": "Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.",
+          "chat": "",
+          "unidentified": "Shortbow"
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": true,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": 5,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "rwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [
+            [
+              "1d6 + 2",
+              "piercing"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "flat"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "simpleR",
+        "properties": {
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "hvy": false,
+          "lgt": false,
+          "rch": false,
+          "rel": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false,
+          "foc": false,
+          "lod": false,
+          "ret": false
+        },
+        "proficient": true,
+        "recharge": {
+          "value": null,
+          "charged": true
+        }
+      },
+      "sort": 300000,
+      "labels": {
+        "activation": "1 Action",
+        "target": "",
+        "range": "/ 5",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "1d6 + 2",
+        "damageTypes": "Piercing"
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "WoKEbKVgODm7le8o",
+      "flags": {},
+      "name": "Multiattack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
+      "data": {
+        "description": {
+          "value": "<p>The {creature} makes two attacks in one action. These attacks can be of the same type or a mixed variety of its attack actions.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 400000,
+      "labels": {
+        "featType": "Action",
+        "activation": "1 Action",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "XJ6x7isoCBoPuk7c",
+      "flags": {},
+      "name": "Redirect attack",
+      "type": "feat",
+      "data": {
+        "description": {
+          "value": "<p><strong>Redirect Attack</strong>. When a creature the goblin can see targets it with an attack, the goblin chooses another goblin <strong>within 5 feet </strong>of it. The two goblins <strong>swap places</strong>, and the chosen goblin <strong>becomes the target instead</strong>.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "sort": 500000,
+      "img": "systems/dnd5e/icons/skills/blood_10.jpg",
+      "labels": {
+        "featType": "Action",
+        "activation": "1 Reaction",
+        "target": "",
+        "range": "",
+        "duration": "",
+        "recharge": "Recharge [null]",
+        "save": "",
+        "damage": "",
+        "damageTypes": ""
+      },
+      "isStack": false,
+      "hasUses": false,
+      "isOnCooldown": false,
+      "isDepleted": false,
+      "hasTarget": false
+    },
+    {
+      "_id": "o9S0DtK9L9Cm8ziC",
+      "flags": {},
+      "name": "Javelin",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/items/weapons/bolt.png",
+      "data": {
+        "description": {
+          "value": "<p>This light and flexible spear is designed for throwing, but is versatile enough to be used in melee combat as well.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 149",
+        "quantity": 1,
+        "weight": 2,
+        "price": 0.5,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Common",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 0,
+          "units": ""
+        },
+        "target": {
+          "value": 0,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 30,
+          "long": 120,
+          "units": "ft"
+        },
+        "uses": {
+          "value": 0,
+          "max": 0,
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 0,
         "chatFlavor": "",
         "critical": null,
         "damage": {
           "parts": [
             [
               "1d6 + @mod",
-              "bludgeoning"
+              "piercing"
             ]
           ],
           "versatile": ""
@@ -926,54 +1006,42 @@
         },
         "weaponType": "simpleM",
         "properties": {
+          "thr": true,
           "amm": false,
           "hvy": false,
           "fin": false,
           "fir": false,
           "foc": false,
           "lgt": false,
-          "lod": false,
           "rch": false,
           "rel": false,
           "ret": false,
           "spc": false,
-          "thr": false,
           "two": false,
-          "ver": false
+          "ver": false,
+          "lod": false
         },
-        "proficient": true,
-        "bonus": {
-          "value": 0,
-          "_deprecated": true
-        },
-        "damageType": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damage2": {
-          "value": "",
-          "_deprecated": true
-        },
-        "damage2Type": {
-          "value": "",
-          "_deprecated": true
+        "proficient": false,
+        "attributes": {
+          "spelldc": 10
         }
       },
-      "sort": 13100001,
+      "sort": 2200000,
       "labels": {
         "activation": "1 Action",
         "target": "",
-        "range": "5 Feet",
+        "range": "30 / 120 Feet",
         "duration": "",
         "recharge": "Recharge [undefined]",
         "save": "",
         "damage": "1d6 + @mod",
-        "damageTypes": "Bludgeoning"
+        "damageTypes": "Piercing"
       },
       "isStack": false,
       "hasUses": false,
       "hasTarget": false
     }
   ],
-  "img": "Sacred_Stone_Monk.Avatar.png?1601123537464"
+  "_id": "8mVQ1OlbTp8P32yg",
+  "img": "imports/avatars/npc-Goblin.jpeg"
 }

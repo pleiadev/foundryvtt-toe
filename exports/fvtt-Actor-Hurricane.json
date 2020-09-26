@@ -6,62 +6,62 @@
       "str": {
         "value": 12,
         "proficient": 0,
-        "min": 3,
         "mod": 1,
-        "save": 1,
         "prof": 0,
         "saveBonus": 0,
-        "checkBonus": 0
+        "checkBonus": 0,
+        "save": 1,
+        "min": 3
       },
       "dex": {
         "value": 16,
         "proficient": 0,
-        "min": 3,
         "mod": 3,
-        "save": 3,
         "prof": 0,
         "saveBonus": 0,
-        "checkBonus": 0
+        "checkBonus": 0,
+        "save": 3,
+        "min": 3
       },
       "con": {
         "value": 13,
         "proficient": 0,
-        "min": 3,
         "mod": 1,
-        "save": 1,
         "prof": 0,
         "saveBonus": 0,
-        "checkBonus": 0
+        "checkBonus": 0,
+        "save": 1,
+        "min": 3
       },
       "int": {
         "value": 10,
         "proficient": 0,
-        "min": 3,
         "mod": 0,
-        "save": 0,
         "prof": 0,
         "saveBonus": 0,
-        "checkBonus": 0
+        "checkBonus": 0,
+        "save": 0,
+        "min": 3
       },
       "wis": {
         "value": 12,
         "proficient": 0,
-        "min": 3,
         "mod": 1,
-        "save": 1,
         "prof": 0,
         "saveBonus": 0,
-        "checkBonus": 0
+        "checkBonus": 0,
+        "save": 1,
+        "min": 3
       },
       "cha": {
         "value": 10,
         "proficient": 0,
-        "min": 3,
         "mod": 0,
-        "save": 0,
         "prof": 0,
         "saveBonus": 0,
-        "checkBonus": 0
+        "checkBonus": 0,
+        "save": 0,
+        "min": 3
       }
     },
     "attributes": {
@@ -81,8 +81,8 @@
         "value": 0,
         "bonus": 0,
         "mod": 3,
-        "total": 3,
-        "prof": 0
+        "prof": 0,
+        "total": 3
       },
       "spellcasting": "cha",
       "speed": {
@@ -151,174 +151,174 @@
       "acr": {
         "value": 1,
         "ability": "dex",
-        "mod": 3,
         "bonus": 0,
-        "passive": 15,
+        "mod": 3,
         "prof": 2,
-        "total": 5
+        "total": 5,
+        "passive": 15
       },
       "ani": {
         "value": 0,
         "ability": "wis",
-        "mod": 1,
         "bonus": 0,
-        "passive": 11,
+        "mod": 1,
         "prof": 0,
-        "total": 1
+        "total": 1,
+        "passive": 11
       },
       "arc": {
         "value": 0,
         "ability": "int",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "ath": {
         "value": 0,
         "ability": "str",
-        "mod": 1,
         "bonus": 0,
-        "passive": 11,
+        "mod": 1,
         "prof": 0,
-        "total": 1
+        "total": 1,
+        "passive": 11
       },
       "dec": {
         "value": 0,
         "ability": "cha",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "his": {
         "value": 0,
         "ability": "int",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "ins": {
         "value": 0,
         "ability": "wis",
-        "mod": 1,
         "bonus": 0,
-        "passive": 11,
+        "mod": 1,
         "prof": 0,
-        "total": 1
+        "total": 1,
+        "passive": 11
       },
       "itm": {
         "value": 0,
         "ability": "cha",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "inv": {
         "value": 0,
         "ability": "int",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "med": {
         "value": 0,
         "ability": "wis",
-        "mod": 1,
         "bonus": 0,
-        "passive": 11,
+        "mod": 1,
         "prof": 0,
-        "total": 1
+        "total": 1,
+        "passive": 11
       },
       "nat": {
         "value": 0,
         "ability": "int",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "prc": {
         "value": 0,
         "ability": "wis",
-        "mod": 1,
         "bonus": 0,
-        "passive": 11,
+        "mod": 1,
         "prof": 0,
-        "total": 1
+        "total": 1,
+        "passive": 11
       },
       "prf": {
         "value": 0,
         "ability": "cha",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "per": {
         "value": 0,
         "ability": "cha",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "rel": {
         "value": 0,
         "ability": "int",
-        "mod": 0,
         "bonus": 0,
-        "passive": 10,
+        "mod": 0,
         "prof": 0,
-        "total": 0
+        "total": 0,
+        "passive": 10
       },
       "slt": {
         "value": 0,
         "ability": "dex",
-        "mod": 3,
         "bonus": 0,
-        "passive": 13,
+        "mod": 3,
         "prof": 0,
-        "total": 3
+        "total": 3,
+        "passive": 13
       },
       "ste": {
         "value": 0,
         "ability": "dex",
-        "mod": 3,
         "bonus": 0,
-        "passive": 13,
+        "mod": 3,
         "prof": 0,
-        "total": 3
+        "total": 3,
+        "passive": 13
       },
       "sur": {
         "value": 0,
         "ability": "wis",
-        "mod": 1,
         "bonus": 0,
-        "passive": 11,
+        "mod": 1,
         "prof": 0,
-        "total": 1
+        "total": 1,
+        "passive": 11
       }
     },
     "spells": {
       "spell1": {
-        "value": 0,
+        "value": 4,
         "max": 4,
         "override": 4
       },
       "spell2": {
-        "value": 0,
+        "value": 2,
         "max": 2,
         "override": 2
       },
@@ -408,16 +408,15 @@
     "exportSource": {
       "world": "foundryvtt-toe",
       "system": "dnd5e",
-      "coreVersion": "0.6.5",
-      "systemVersion": 0.94
+      "coreVersion": "0.6.6",
+      "systemVersion": 0.96
     }
   },
-  "img": "systems/dnd5e/tokens/heroes/MonkUnarmed.png",
   "token": {
     "flags": {},
     "name": "Acolyte",
     "displayName": 0,
-    "img": "systems/dnd5e/tokens/humanoid/Acolyte.png",
+    "img": "Hurricane.Token.png?1601122445794",
     "tint": null,
     "width": 1,
     "height": 1,
@@ -432,7 +431,7 @@
     "sightAngle": 360,
     "lightAngle": 360,
     "lightAlpha": 1,
-    "actorId": "9fUMqem5GQkDj0Ky",
+    "actorId": "IrfWHFKgUtNwq19M",
     "actorLink": false,
     "actorData": {},
     "disposition": -1,
@@ -631,7 +630,7 @@
           "M",
           "C"
         ],
-        "materials": "(A legume seed.)",
+        "materials": "A legume seed.",
         "activation": "1 Action",
         "target": "60 Feet Line",
         "range": "Self",
@@ -860,7 +859,7 @@
           "V",
           "S"
         ],
-        "materials": null,
+        "materials": "",
         "activation": "1 Action",
         "target": "15 Feet Cube",
         "range": "Self",
@@ -967,7 +966,7 @@
           "S",
           "M"
         ],
-        "materials": "(A grasshopper's hind leg)",
+        "materials": "A grasshopper's hind leg",
         "activation": "1 Action",
         "target": "1 Creature",
         "range": "Touch",
@@ -1073,7 +1072,7 @@
           "V",
           "M"
         ],
-        "materials": "(A small feather or piece of down)",
+        "materials": "A small feather or piece of down",
         "activation": "1 Reaction",
         "target": "5 Creature",
         "range": "60 Feet",
@@ -1178,7 +1177,7 @@
           "V",
           "M"
         ],
-        "materials": "(A firefly or phosphorescent moss.)",
+        "materials": "A firefly or phosphorescent moss.",
         "activation": "1 Action",
         "target": "1 Object",
         "range": "Touch",
@@ -1284,7 +1283,7 @@
           "V",
           "S"
         ],
-        "materials": null,
+        "materials": "",
         "activation": "1 Action",
         "target": "",
         "range": "10 Feet",
@@ -1388,7 +1387,7 @@
           "V",
           "S"
         ],
-        "materials": null,
+        "materials": "",
         "activation": "1 Action",
         "target": "",
         "range": "30 Feet",
@@ -1492,7 +1491,7 @@
           "V",
           "S"
         ],
-        "materials": null,
+        "materials": "",
         "activation": "1 Action",
         "target": "",
         "range": "Self",
@@ -1694,14 +1693,14 @@
       "img": "systems/dnd5e/icons/skills/weapon_24.jpg",
       "data": {
         "description": {
-          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks &lt;#&gt; using &lt;details&gt;.</p>",
+          "value": "<p>When &lt;creature&gt; makes an attack action, it attacks twice using Unarmed Strike.</p>",
           "chat": "",
           "unidentified": ""
         },
         "source": "",
         "activation": {
-          "type": "",
-          "cost": 0,
+          "type": "action",
+          "cost": 1,
           "condition": ""
         },
         "duration": {
@@ -1715,7 +1714,7 @@
         },
         "range": {
           "value": null,
-          "long": "",
+          "long": null,
           "units": ""
         },
         "uses": {
@@ -1727,7 +1726,7 @@
         "consume": {
           "type": "",
           "target": "",
-          "amount": ""
+          "amount": null
         },
         "ability": "",
         "actionType": "",
@@ -1788,8 +1787,8 @@
       },
       "sort": 12200001,
       "labels": {
-        "featType": "Passive",
-        "activation": "",
+        "featType": "Action",
+        "activation": "1 Action",
         "target": "",
         "range": "",
         "duration": "",
@@ -1862,7 +1861,7 @@
         },
         "ability": "",
         "actionType": "mwak",
-        "attackBonus": 5,
+        "attackBonus": null,
         "chatFlavor": "",
         "critical": null,
         "damage": {
@@ -2073,5 +2072,6 @@
       "hasTarget": false
     }
   ],
-  "_id": "9fUMqem5GQkDj0Ky"
+  "_id": "IrfWHFKgUtNwq19M",
+  "img": "Hurricane.Avatar.png?1601122445794"
 }
