@@ -1,0 +1,282 @@
+{
+  "name": "Long Road Bandit Camp",
+  "sort": 100001,
+  "flags": {
+    "exportSource": {
+      "world": "foundryvtt-toe",
+      "system": "dnd5e",
+      "coreVersion": "0.7.7",
+      "systemVersion": "1.1.1"
+    }
+  },
+  "description": "",
+  "navigation": true,
+  "navOrder": 100001,
+  "active": true,
+  "initial": null,
+  "img": "worlds/foundryvtt-toe/maps/Roadside%20Camp%20Ambush.png",
+  "width": 3150,
+  "height": 4200,
+  "padding": 0,
+  "backgroundColor": "#999999",
+  "tiles": [],
+  "gridType": 1,
+  "grid": 70,
+  "shiftX": 0,
+  "shiftY": 0,
+  "gridColor": "#000000",
+  "gridAlpha": 0.2,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "tokens": [],
+  "walls": [
+    {
+      "_id": "rjmgRP6bhxjhn8C9",
+      "flags": {},
+      "c": [
+        0,
+        2800,
+        3150,
+        2800
+      ],
+      "move": 1,
+      "sense": 2,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "LvRDns0tGOIcajEb",
+      "flags": {},
+      "c": [
+        0,
+        2870,
+        3150,
+        2870
+      ],
+      "move": 1,
+      "sense": 2,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "KmVov2l0hA7xdXsl",
+      "flags": {},
+      "c": [
+        3150,
+        2870,
+        3150,
+        4191
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "HFHRCsnafFRAFYCF",
+      "flags": {},
+      "c": [
+        3150,
+        4191,
+        0,
+        4200
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "Iesjt0Gjm7aohf43",
+      "flags": {},
+      "c": [
+        0,
+        4200,
+        0,
+        2870
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "08qbdOLXlMIJhmfm",
+      "flags": {},
+      "c": [
+        0,
+        2800,
+        0,
+        2870
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "k0uDe6tXv8aVjVQx",
+      "flags": {},
+      "c": [
+        0,
+        2800,
+        0,
+        1478
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "KDygYceu7M4dO7zF",
+      "flags": {},
+      "c": [
+        0,
+        1478,
+        0,
+        997
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "Pzv3jxRmov7j5ue0",
+      "flags": {},
+      "c": [
+        0,
+        997,
+        0,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "o3mn2Ol9d2iwhTdi",
+      "flags": {},
+      "c": [
+        0,
+        0,
+        2292,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "9rZzCWv5X4CG8TQP",
+      "flags": {},
+      "c": [
+        2292,
+        0,
+        3062,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "qaNh1EnisjrkYTpN",
+      "flags": {},
+      "c": [
+        3062,
+        0,
+        3150,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "WYStmb0tnLyo1ExN",
+      "flags": {},
+      "c": [
+        3150,
+        0,
+        3150,
+        1120
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "lL2dDi7pwqUHqC50",
+      "flags": {},
+      "c": [
+        3150,
+        1120,
+        3150,
+        1592
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "HjFvWzN4SLJgtbAD",
+      "flags": {},
+      "c": [
+        3150,
+        1592,
+        3150,
+        2800
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "TbExf7NChKdq663e",
+      "flags": {},
+      "c": [
+        3150,
+        2800,
+        3150,
+        2870
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    }
+  ],
+  "tokenVision": true,
+  "fogExploration": true,
+  "lights": [],
+  "globalLight": false,
+  "globalLightThreshold": null,
+  "darkness": 0,
+  "sounds": [],
+  "templates": [],
+  "notes": [],
+  "drawings": [],
+  "_id": "hbuivP5xL3PdjEPY",
+  "size": null,
+  "thumb": "worlds/foundryvtt-toe/scenes/thumbs/hbuivP5xL3PdjEPY.png?1605742554595",
+  "navName": "",
+  "hasGlobalThreshold": false,
+  "journal": "",
+  "playlist": "",
+  "weather": ""
+}

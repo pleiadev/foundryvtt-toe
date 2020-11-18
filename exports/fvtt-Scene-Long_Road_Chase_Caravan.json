@@ -1,0 +1,167 @@
+{
+  "name": "Long Road Chase Caravan",
+  "sort": 100001,
+  "flags": {
+    "exportSource": {
+      "world": "foundryvtt-toe",
+      "system": "dnd5e",
+      "coreVersion": "0.7.7",
+      "systemVersion": "1.1.1"
+    }
+  },
+  "description": "",
+  "navigation": true,
+  "navOrder": 100001,
+  "active": true,
+  "initial": null,
+  "img": "worlds/foundryvtt-toe/maps/Roadside%20Chase%20Caravan.png",
+  "width": 2800,
+  "height": 8400,
+  "padding": 0,
+  "backgroundColor": "#999999",
+  "tiles": [],
+  "gridType": 1,
+  "grid": 70,
+  "shiftX": 0,
+  "shiftY": 0,
+  "gridColor": "#000000",
+  "gridAlpha": 0.2,
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "tokens": [],
+  "walls": [
+    {
+      "_id": "j1bCtdUj60ItuiFp",
+      "flags": {},
+      "c": [
+        8,
+        0,
+        918,
+        8
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "NsBwf7uA8vqyiMKQ",
+      "flags": {},
+      "c": [
+        918,
+        8,
+        1750,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "z9DzP1RFqeflRKBY",
+      "flags": {},
+      "c": [
+        1750,
+        0,
+        2791,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "AMebTdK78W1jTdUJ",
+      "flags": {},
+      "c": [
+        2800,
+        8391,
+        1680,
+        8400
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "MXLPalDnNQN0Z5RR",
+      "flags": {},
+      "c": [
+        1680,
+        8400,
+        910,
+        8400
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    },
+    {
+      "_id": "XR8mQ9RmjW9zAc4K",
+      "flags": {},
+      "c": [
+        910,
+        8400,
+        0,
+        8400
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "H31kwO7MHZN1uhs1",
+      "flags": {},
+      "c": [
+        0,
+        8400,
+        8,
+        0
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0,
+      "locked": false
+    },
+    {
+      "_id": "gFMNDOBtObeNyEb4",
+      "flags": {},
+      "c": [
+        2791,
+        0,
+        2800,
+        8391
+      ],
+      "move": 1,
+      "sense": 1,
+      "door": 0,
+      "ds": 0
+    }
+  ],
+  "tokenVision": true,
+  "fogExploration": true,
+  "lights": [],
+  "globalLight": false,
+  "globalLightThreshold": null,
+  "darkness": 0,
+  "sounds": [],
+  "templates": [],
+  "notes": [],
+  "drawings": [],
+  "_id": "LjJ8hLy30JAsmXHy",
+  "size": null,
+  "thumb": "worlds/foundryvtt-toe/scenes/thumbs/LjJ8hLy30JAsmXHy.png?1605743528179",
+  "navName": "",
+  "hasGlobalThreshold": false,
+  "journal": "",
+  "playlist": "",
+  "weather": ""
+}
